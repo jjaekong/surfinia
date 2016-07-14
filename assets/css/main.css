@@ -1,0 +1,258 @@
+.nanum {
+  font-family: 'Nanum Gothic', sans-serif; }
+
+.roboto, .primary-category a h3 small, .event .details .more, .community section h4, .community #review ul li a small, .community #notice .more,
+.community #qna .more {
+  font-family: 'Roboto', sans-serif; }
+
+#visual {
+  overflow: hidden;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 500px;
+  /*
+  .bx-wrapper {
+      position: absolute;
+      left: 50%;
+      margin-left: -(3510px / 2);
+      //max-width: 1170px * 3;
+      width: 3510px;
+      .bx-controls {
+          position: absolute;
+          left: 50%;
+          margin-left: -585px;
+          width: 1170px;
+          z-index: 9999;
+          text-align: center;
+      }
+  }
+  */ }
+  #visual .bx-wrapper {
+    position: relative; }
+    #visual .bx-wrapper .bx-viewport ul li div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #c7c7c7;
+      opacity: .7;
+      -webkit-transition: opacity 1s;
+      transition: opacity 1s; }
+    #visual .bx-wrapper .bx-viewport ul li.active div {
+      opacity: 0; }
+    #visual .bx-wrapper .bx-controls {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      margin-left: -585px;
+      width: 1170px; }
+      #visual .bx-wrapper .bx-controls .bx-pager {
+        overflow: hidden;
+        padding-left: 30px;
+        padding-right: 30px; }
+        #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+          float: left;
+          margin-right: 10px;
+          width: 14px;
+          height: 14px; }
+          #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+            text-indent: -999em;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(127, 127, 124, 0.7);
+            border-radius: 50%; }
+            #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+              background-color: #7f7f7c; }
+
+.primary-category {
+  margin-bottom: 30px; }
+  .primary-category a {
+    text-decoration: none; }
+    .primary-category a .figure {
+      margin-bottom: 10px; }
+    .primary-category a h3 {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 24px;
+      font-family: 'Times New Roman', serif;
+      color: #383838;
+      line-height: 18px; }
+      .primary-category a h3 small {
+        position: relative;
+        top: -2px;
+        font-size: 12px;
+        color: #c9c9c9; }
+    .primary-category a .details {
+      font-size: 11px;
+      letter-spacing: -1px;
+      line-height: 16px; }
+
+.event {
+  margin-bottom: 30px;
+  height: 366px; }
+  .event .figure {
+    float: left;
+    width: 670px;
+    height: 366px; }
+    .event .figure img {
+      width: 100%;
+      height: 100%; }
+  .event .details {
+    margin-left: 670px;
+    padding: 45px 50px;
+    height: 100%;
+    border: 1px solid #dfdfdf; }
+    .event .details h4 {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      font-weight: 700; }
+    .event .details p {
+      margin-bottom: 25px; }
+    .event .details .more {
+      display: inline-block;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      width: 92px;
+      height: 34px;
+      background-color: #99cc99;
+      color: #fff;
+      text-align: center;
+      line-height: 16px; }
+
+.recommend {
+  margin-bottom: 30px;
+  height: 362px; }
+  .recommend .recommend-secondary ul {
+    overflow: hidden;
+    border: 1px solid #eaeaea; }
+    .recommend .recommend-secondary ul li {
+      float: left; }
+      .recommend .recommend-secondary ul li a {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%; }
+        .recommend .recommend-secondary ul li a .details {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.4);
+          opacity: 0; }
+          .recommend .recommend-secondary ul li a .details h5 {
+            margin-top: 80px;
+            font-size: 13px;
+            color: #fff;
+            font-weight: bold; }
+          .recommend .recommend-secondary ul li a .details small {
+            font-size: 10px;
+            color: #bababa; }
+        .recommend .recommend-secondary ul li a:hover .details, .recommend .recommend-secondary ul li a:focus .details {
+          opacity: 1; }
+
+.community {
+  margin-bottom: 30px; }
+  .community section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    line-height: 20px;
+    font-weight: 500; }
+  .community #sponsorship .bx-wrapper {
+    position: relative; }
+    .community #sponsorship .bx-wrapper .bx-controls {
+      position: absolute;
+      left: 20px;
+      bottom: 20px; }
+      .community #sponsorship .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        float: left;
+        margin-right: 8px;
+        width: 9px;
+        height: 9px; }
+        .community #sponsorship .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: rgba(255, 255, 255, 0.5);
+          text-indent: -999em; }
+          .community #sponsorship .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+            background-color: white; }
+  .community #review ul li {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 210px; }
+    .community #review ul li:last-child {
+      margin-bottom: 0; }
+    .community #review ul li a {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      padding: 30px 30px 30px 200px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #eaeaea;
+      text-decoration: none; }
+      .community #review ul li a .figure {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .community #review ul li a h5 {
+        overflow: hidden;
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .community #review ul li a small {
+        font-size: 13px;
+        font-weight: 500; }
+      .community #review ul li a p {
+        margin-top: 15px; }
+      .community #review ul li a:hover, .community #review ul li a:focus {
+        opacity: .7; }
+  .community #notice,
+  .community #qna {
+    position: relative;
+    margin-top: 30px;
+    padding: 30px 25px;
+    height: 210px;
+    border: 1px solid #ececec; }
+    .community #notice h4,
+    .community #qna h4 {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #cbcbcb; }
+    .community #notice ul li a,
+    .community #qna ul li a {
+      overflow: hidden;
+      display: block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 20px; }
+    .community #notice ul li.new a,
+    .community #qna ul li.new a {
+      margin-left: 25px; }
+    .community #notice ul li.new:before,
+    .community #qna ul li.new:before {
+      float: left;
+      margin-top: 2px;
+      content: url(/assets/images/ico_new.png); }
+    .community #notice .more,
+    .community #qna .more {
+      position: absolute;
+      top: 30px;
+      right: 25px;
+      font-size: 11px;
+      line-height: 20px;
+      color: #333; }
+
+/*# sourceMappingURL=main.css.map */
