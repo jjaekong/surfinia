@@ -59,23 +59,6 @@
             }
         }
     }
-    /*
-    .bx-wrapper {
-        position: absolute;
-        left: 50%;
-        margin-left: -(3510px / 2);
-        //max-width: 1170px * 3;
-        width: 3510px;
-        .bx-controls {
-            position: absolute;
-            left: 50%;
-            margin-left: -585px;
-            width: 1170px;
-            z-index: 9999;
-            text-align: center;
-        }
-    }
-    */
 }
 
 .primary-category {
@@ -148,6 +131,12 @@
             line-height: 16px;
         }
     }
+}
+
+.banner {
+    display: none;
+    margin-bottom: 30px;
+    height: 580px;
 }
 
 .recommend {

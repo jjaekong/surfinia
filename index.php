@@ -1,57 +1,8 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SURFINIA</title>
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/default.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href="/assets/css/main.css" rel="stylesheet">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link href="/assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-3">
-                    <ul class="member">
-                        <li><a href="#">LOGIN</a></li>
-                        <li><a href="#">JOIN</a></li>
-                        <li><a href="#">CART</a></li>
-                        <li><a href="#">MYPAGE</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4 col-xs-offset-1">
-                    <h1><a href="#"><img src="/assets/images/txt_surfinia.png" alt="SURFINIA"></a></h1>
-                </div>
-                <div class="col-xs-3 col-xs-offset-1">
-                    <form class="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control">
-                            <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-search"></span></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </header>
-    <nav id="gnb" tabindex="-1">
-        <div class="container">
-            <ul>
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">BLANKET</a></li>
-                <li><a href="#">CUSHION</a></li>
-                <li><a href="#">LIVING</a></li>
-                <li><a href="#">ACCESSORY</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">COMMUNITY</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
         <div id="visual">
             <ul>
@@ -80,7 +31,6 @@
                     </a>
                 </li>
             </ul>
-            <div class="bx-cover"></div>
         </div>
         <div class="container">
             <section class="primary-category row">
@@ -187,6 +137,20 @@
                     </ul>
                 </div>
             </div>
+            <div class="banner row">
+                <div class="col-xs-5">
+                    <div style="height: 580px; background-color: #000"></div>
+                </div>
+                <div class="col-xs-4">
+                    <div style="height: 355px; background-color: #000"></div>
+                </div>
+                <div class="col-xs-3">
+                    <div style="height: 355px; background-color: #000"></div>
+                </div>
+                <div class="col-xs-7" style="margin-top: 30px;">
+                    <div style="height: 195px; background-color: #000"></div>
+                </div>
+            </div>
             <div class="community row">
                 <div class="col-xs-4">
                     <section id="sponsorship">
@@ -260,128 +224,9 @@
             </div>
         </div>
     </main>
-    <footer id="footer">
-        <div class="help">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-3">
-                        <section class="copyright">
-                            <h2><img src="/assets/images/logo.png" alt="SURFINIA"></h2>
-                            <p>
-                                주식회사 가림아이앤씨의 허가없이<br>
-                                사이트 내의 디자인 및 이미지 등을<br>
-                                무단 사용할 수 없습니다.
-                            </p>
-                        </section>
-                    </div>
-                    <div class="col-xs-3">
-                        <section class="cs">
-                            <h5>CS CENTER</h5>
-                            <strong>02-454-0070</strong>
-                            <dl class="hours">
-                                <dt>상담시간</dt>
-                                <dd>월-금 10:00 ~ 18:00<br>(주말 및 공휴일 휴무)</dd>
-                            </dl>
-                            <dl class="contacts">
-                                <dt>FAX</dt>
-                                <dd>02-456-3200</dd>
-                                <dt>E-mail</dt>
-                                <dd><a href="mailto:surfinia@e-insung.com" target="_blank">surfinia@e-insung.com</a></dd>
-                            </dl>
-                        </section>
-                    </div>
-                    <div class="col-xs-3">
-                        <section class="bank">
-                            <h5>BANK INFO <i>(무통장입금안내)</i></h5>
-                            <dl class="account">
-                                <dt>하나은행</dt>
-                                <dd>234-910009-42904</dd>
-                            </dl>
-                            <dl class="holder">
-                                <dt>예금주</dt>
-                                <dd>(주)가림아이앤씨</dd>
-                            </dl>
-                        </section>
-                    </div>
-                    <div class="col-xs-3">
-                        <section class="sitemap">
-                            <h5>SITE MAP</h5>
-                            <ul>
-                                <li><a href="#">회사소개</a></li>
-                                <li><a href="#">이용문의</a></li>
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">제휴문의</a></li>
-                                <li><a href="#">이용약관</a></li>
-                                <li><a href="#">개인정보취급방침</a></li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="info">
-            <div class="container">
-                <dl class="business">
-                    <dt>회사명</dt>
-                    <dd>주식회사 가림아이앤씨</dd>
-                    <dt class="sr-only">주소</dt>
-                    <dd><address>143811 서울특별시 광진구 아차산로 627 인성빌딩 6층(광장동, 인성빌딩)</address></dd>
-                    <dt>사업자 등록번호</dt>
-                    <dd>206-86-05024</dd>
-                    <dt>통신판매업 신고</dt>
-                    <dd>2012-서울광진-0579[<a href="#" target="_blank">사업자정보확인</a>]</dd>
-                </dl>
-                <dl class="contact">
-                    <dt>대표이사</dt>
-                    <dd>김동희</dd>
-                    <dt>개인정보관리책임자</dt>
-                    <dd>정승준(<a href="surfinia@e-insung.com" target="_blank">surfinia@e-insung.com</a>)</dd>
-                    <dt>Contact</dt>
-                    <dd><a href="mailto:surfinia@e-insung.com" target="_blank">surfinia@e-insung.com</a></dd>
-                </dl>
-                <p class="copyright">Copyright &copy; 2016 서피니아-세계가 인정한 한국 명품 홈브랜드. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery.bxslider.min.js"></script>
-    <script>
-        (function($) {
-
-            // 비주얼 영역
-            $('#visual ul').bxSlider({
-                auto: true,
-                controls: false,
-                autoControl: true,
-                maxSlides: 3,
-                moveSlides: 1,
-                slideWidth: 1170,
-                responsive: false,
-                touchEnabled: false,
-                onSliderLoad: function(currentIndex) {
-                    $('#visual .bx-viewport').css({
-                        'margin': '0 auto',
-                        'width' : 1170,
-                        'overflow': 'visible'
-                    });
-                    $('#visual .bx-viewport ul').css({
-                        'width' : $('#visual ul li').length * 100 + '%'
-                    });
-                    $('#visual .bx-viewport ul li').not('.bx-clone').eq(currentIndex).addClass('active');
-                },
-                onSlideBefore: function($slideElement, oldIndex, newIndex) {
-                    $('#visual .bx-viewport ul li.active').removeClass('active');
-                    $slideElement.addClass('active');
-                }
-            });
-
-            // 스폰서쉽 영역
-            $('#sponsorship ul').bxSlider({
-                controls: false
-            });
-
-        })(jQuery);
-    </script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
