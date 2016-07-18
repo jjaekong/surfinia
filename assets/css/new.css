@@ -1,0 +1,180 @@
+/* product-list */
+.new.product-list .container .product {
+    overflow: hidden;
+}
+.new.product-list .container .product header > p {
+    max-width: 660px;
+    max-height: 400px;
+    float: left;
+    margin-right: 30px;
+}
+.new.product-list .container .product header .best-list {
+    width: 480px;
+    height: 400px;
+    padding: 20px;
+    float: left;
+    background-color: #f6f6f6;
+}
+.new.product-list .container .product header .best-list > .best > li {
+    position: relative;
+    margin-right: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+.new.product-list .container .product header .best-list > .best > li:last-child {
+    margin-right: 0;
+}
+.new.product-list .container .product header .best-list > .best > li > a {
+    text-decoration: none;
+}
+.new.product-list .container .product header .best-list > .best > li > a > h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+    margin: 0;
+}
+.new.product-list .container .product header .best-list > .best > li > a > h3 > small {
+    font-size: 10px;
+    color:#fff;
+    font-weight: bold;
+}
+.new.product-list .container .product header .best-list > .best > li > a > h2 {
+    margin: 0;
+    padding: 15px 0 7px 0;
+    text-align: left;
+    font-size: 12px;
+    color: #444;
+    font-weight: 600;
+}
+.new.product-list .container .product header .best-list > .best > li > a > span {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 4px;
+    letter-spacing: -1px;
+}
+.new.product-list .container .product header .best-list > .best > li > a > p {
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+
+
+
+
+.new.product-list .container .product > .menu-list {
+    border-bottom: 1px solid #dadada;
+    padding-top: 80px;
+    clear: both;
+    text-align: center;
+}
+.new.product-list .container .product > .menu-list > li {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    padding-bottom: 12px;
+    width: 63px;
+    position: relative;
+}
+.new.product-list .container .product > .menu-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    content: "|";
+}
+.new.product-list .container .product > .menu-list > li:first-child:before {
+    content: "";
+}
+.new.product-list .container .product > .menu-list > .active {
+    border-bottom: 3px solid #333;
+}
+.new.product-list .container .product > .article-content {
+    padding: 29px 0 0 0;
+    overflow: hidden;
+}
+.new.product-list .container .product > .article-content > .terms-list {
+    float: right;
+}
+.new.product-list .container .product > .article-content > .terms-list > li {
+    font-size: 12px;
+    color: #666;
+    text-align:center;
+    display: inline-block;
+}
+.new.product-list .container .product > .article-content > .terms-list > li:before {
+    content: "|";
+    padding: 0 10px;
+}
+.new.product-list .container .product > .article-content > .terms-list > li:first-child:before {
+    content: "";
+    padding-left: 0;
+}
+.new.product-list .container .product > .article-content > .terms-list > .active {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.new.product-list .container .product > .article-content > .product-item {
+    margin-top: 38px;
+}
+.new.product-list .container .product > .article-content > .product-item > li {
+    margin: 0 26px 30px 0 ;
+    display: inline-block;
+    vertical-align: top;
+}
+.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(4) {
+    margin-right: 0;
+}
+.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(8) {
+    margin-right: 0;
+}
+.new.product-list .container .product > .article-content > .product-item > li > a {
+    text-decoration: none;
+}
+.new.product-list .container .product > .article-content > .product-item > li > a > h2 {
+
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
