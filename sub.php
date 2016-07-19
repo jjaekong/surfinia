@@ -140,11 +140,20 @@
                 </table>
             </div>
 
+
             <div style="margin:30px 0;">
-                <ul class="bast-new">
-                    <li class="best-product">BEST</li>
-                    <li class="new-product">NEW</li>
-                </ul>
+                <div class="lable-wrap">
+                    <p class="lable label-default lable-green">BEST</p>
+                    <p class="lable label-default lable-white">NEW</p>
+                </div>
+            </div>
+
+            <div style="margin: 30px 0;">
+            <ul class="menu-list">
+                <li class="active"><a href="#">쓰로우</a></li>
+                <li><a href="#">블랑켓</a></li>
+                <li><a href="#">쓰로우</a></li>
+            </ul>
             </div>
 
             <div style="margin: 30px 0;">

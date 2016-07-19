@@ -15,31 +15,31 @@
                         <ul class="best">
                             <li>
                                 <a href="#">
-                                    <h3><small>BEST</small><br>01</h3>
+                                    <h5><small>BEST</small><br>01</h5>
                                     <p>
                                         <img src="/assets/images/new/best_img01.jpg" alt="">
                                     </p>
-                                    <h2>샘플아이템 01</h2>
-                                    <span>50,000 won</span>
-                                    <p>40,000 won</p>
-                                    <ul class="bast-new">
-                                        <li class="best-product">BEST</li>
-                                        <li class="new-product">NEW</li>
-                                    </ul>
+                                    <h4>샘플아이템 01</h4>
+                                    <span class="reduction">50,000 won</span>
+                                    <p class="place">40,000 won</p>
+                                    <p class="lable-wrap">
+                                        <span class="lable label-default lable-green">BEST</span>
+                                        <span class="lable label-default lable-white">NEW</span>
+                                    </p>
                                 </a>
                             </li>
                              <li>
                                 <a href="#">
-                                    <h3><small>BEST</small><br>02</h3>
+                                    <h5><small>BEST</small><br>02</h5>
                                     <p>
                                         <img src="/assets/images/new/best_img02.jpg" alt="">
                                     </p>
-                                    <h2>샘플아이템 01</h2>
-                                    <span>50,000 won</span>
-                                    <p>40,000 won</p>
-                                    <ul class="bast-new">
-                                        <li class="best-product">BEST</li>
-                                    </ul>
+                                    <h4>샘플아이템 01</h4>
+                                    <span class="reduction">50,000 won</span>
+                                    <p class="place">40,000 won</p>
+                                    <p class="lable-wrap">
+                                        <span class="lable label-default lable-green">BEST</span>
+                                    </p>
                                 </a>
                             </li>
                         </ul>
@@ -63,8 +63,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list01.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -72,8 +76,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list02.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -81,8 +89,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list01.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -90,8 +102,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list02.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -99,8 +115,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list01.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -108,8 +128,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list02.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -117,8 +141,12 @@
                                 <p>
                                     <img src="/assets/images/new/product_list01.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                         <li>
@@ -126,12 +154,142 @@
                                 <p>
                                     <img src="/assets/images/new/product_list02.jpg" alt="">
                                 </p>
-                                <h2>샘플아이템 01</h2>
-                                <p>40,000 won</p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list01.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list02.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list01.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list02.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list01.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list02.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list01.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>
+                                    <img src="/assets/images/new/product_list02.jpg" alt="">
+                                </p>
+                                <h4>샘플아이템 01</h4>
+                                <p class="place">40,000 won</p>
+                                <p class="lable-wrap">
+                                    <span class="lable label-default lable-green">BEST</span>
+                                    <span class="lable label-default lable-white">NEW</span>
+                                </p>
                             </a>
                         </li>
                     </ul>
                 </div>
+
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#">&laquo;</a>
+                        </li>
+                        <li>
+                            <a href="#">&lsaquo;</a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#">&rsaquo;</a>
+                        </li>
+                        <li>
+                            <a href="#">&raquo;</a>
+                        </li>
+                    </ul>
+                </nav>
             </article>
         </div>
     </main>
