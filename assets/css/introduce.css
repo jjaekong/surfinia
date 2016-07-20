@@ -1,0 +1,197 @@
+/* company */
+.introduce.company .introduce {
+    background-image: url(/assets/images/introduce/company_bg01.png);
+    background-repeat: no-repeat;
+    background-position: 100% 214px;
+}
+.introduce.company .introduce > p > img {
+    margin-top: 80px;
+}
+.introduce.company .introduce > p {
+    width: 668px;
+    font-size: 13px;
+    line-height: 23px;
+}
+.introduce.company .introduce > p:nth-of-type(2) {
+    margin: 51px 0 34px 0;
+}
+.introduce.company .introduce > .history {
+    margin-top: 92px;
+    padding: 45px 50px;
+    background-color: #f5f8f8;
+}
+.introduce.company .introduce > .history > h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.introduce.company .introduce > .history > h2 > span {
+    display: block;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #222;
+    width: 45px;
+    margin: 0 auto;
+}
+.introduce.company .introduce > .history > div {
+    width: 450px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 130px;
+}
+.introduce.company .introduce > .history > div:last-child {
+    margin-right: 0;
+}
+.introduce.company .introduce > .history > div > .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.introduce.company .introduce > .history > div > .inline-dl > dd {
+    float: left;
+    font-size: 13px;
+    color: #333;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+/* guide */
+/* 공통 */
+.introduce.guide .guide-menu {
+    overflow: hidden;
+}
+.introduce.guide .guide-menu > li {
+    float: left;
+    width: 168px;
+    height: 45px;
+    border: 1px solid #dadada;
+    text-align: center;
+    margin-left: -1px;
+}
+.introduce.guide .guide-menu > li:first-child {
+    margin-left: 0;
+}
+.introduce.guide .guide-menu > li > a {
+    display: block;
+    padding: 13px 0;
+    font-size: 13px;
+    color: #333;
+}
+.introduce.guide .guide-menu > .active {
+    background-color: #99cccc;
+    border-color: #99cccc;
+}
+.introduce.guide .guide-menu > .active > a {
+    color: #fff;
+}
+.introduce.guide .guide-content {
+    padding: 51px 0 93px 0;
+}
+.introduce.guide .guide-content > h2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 28px;
+}
+.introduce.guide .guide-content > p {
+    font-size: 13px;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.introduce.guide .inline-dl {
+    margin-top: 30px;
+}
+.introduce.guide .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+    padding-right: 3px;
+}
+.introduce.guide .inline-dl > dd {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.introduce.guide .inline-dl > dd:before {
+    content: ":";
+    padding-right: 3px;
+}
+
+
+
+.introduce.guide .guide-list > .section-content > .join {
+    margin-top: 50px;
+}
+.introduce.guide .guide-list > .section-content > .order > .guide-content > .inline-dl > dt:before {
+    content: "-";
+    padding-right: 5px;
+}
+.introduce.guide .guide-list > .section-content > .order > .guide-content > p:nth-of-type(2) {
+    clear: both;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

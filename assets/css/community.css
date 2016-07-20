@@ -1,0 +1,278 @@
+/* qna */
+.community.qna .qna-info > .qna-list {
+    margin-top: 50px;
+    width: 1170px;
+    height: 60px;
+    border: 1px solid #dadada;
+    padding: 20px 0;
+}
+.community.qna .qna-info > .qna-list > ul {
+    text-align: center;
+}
+.community.qna .qna-info > .qna-list > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+.community.qna .qna-info > .qna-list > ul > li > a {
+    font-size: 13px;
+    color: #555;
+}
+.community.qna .qna-info > .qna-list > ul > li:before {
+    position: absolute;
+    top: 0;
+    left: -16px;
+    content: "|";
+}
+.community.qna .qna-info > .qna-list > ul > li:first-child:before {
+    content: "";
+}
+.community.qna .qna-info > .qna-list > ul > li:last-child {
+    margin-right: 0;
+}
+.community.qna .qna-info > .qna-list > ul > .active > a {
+    color: #222;
+    font-weight: bold;
+}
+.community.qna .qna-info > .table-wrap {
+    padding-top: 70px;
+    position: relative;
+}
+.community.qna .qna-info > .table-wrap > .search-form {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+.community.qna .qna-info > .table-wrap > .table {
+    margin-bottom: 50px ;
+}
+
+/* review-list */
+.community.review-list .review > .table-wrap {
+    padding-top: 100px;
+    position: relative;
+}
+.community.review-list .review > .table-wrap > .table {
+    margin-bottom: 50px;
+}
+.community.review-list .review > .table-wrap > .search-form {
+    position: absolute;
+    top: 49px;
+    right: 0;
+}
+.community.review-list .review > .table-wrap > .table > tbody > tr > td {
+    vertical-align: middle;
+}
+.community.review-list .review > .table-wrap > .table > tbody > tr > td:nth-of-type(3) {
+    text-align: left !important;
+    padding-left: 45px !important;
+}
+.community.review-list .review > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > a {
+    width: 580px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+.community.review-list .review > .table-wrap > .table > tbody > tr > td > p {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+/* review-view */
+.community.review-view .view > .table-wrap {
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr > td {
+    padding-left: 20px !important;
+    text-align: left !important;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr > th {
+    background-color: #fafafa ;
+    font-weight: bold ;
+    vertical-align: middle;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr > th {
+    border-bottom: 1px solid #dadada !important;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td {
+    padding: 10px !important;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view {
+    overflow: hidden;
+    height: 125px;
+    border: 1px solid #e7e7e7;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > p {
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-right: 16px;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > h6 {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    padding: 6px 0 9px 0;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > dl > dt {
+    font-weight: 300;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > dl > dt:before {
+    content: "[";
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > dl > dd:before {
+    content: ":";
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > dl > dd:after {
+    content: "]";
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > dl > dd {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(5) {
+    height: 272px;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(6) > td > a:hover {
+    text-decoration: underline !important;
+}
+.community.review-view .view > .table-wrap > .btn-area {
+    width: 1170px;
+    position: relative;
+}
+.community.review-view .view > .table-wrap > .btn-area > p > .btn {
+    width: 80px !important;
+    height: 35px !important;
+    padding: 8px 15px !important;
+    margin: 0 !important;
+}
+.community.review-view .view > .table-wrap > .btn-area > p > .btn:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.community.review-view .view > .table-wrap > .btn-area > p > .btn:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 180px;
+}
+.community.review-view .view > .table-wrap > .btn-area > p > .btn:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    right: 90px;
+}
+.community.review-view .view > .table-wrap > .btn-area > p > .btn:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* review-write */
+.community.review-write .write > .table-wrap {
+    padding-top: 50px;
+}
+.community.review-write .write > .table-wrap > .table {
+    margin-bottom: 50px;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr > th {
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 20px !important;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr:first-child > th {
+    border-top: 1px solid #333;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr:first-child > td {
+    border-top: 1px solid #333;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr > td {
+    padding: 7px !important;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr > td > input {
+    width: 997px;
+    height: 30px;
+}
+.community.review-write .write > .table-wrap > .table > tbody > tr > td > textarea {
+    width: 997px;
+    height: 360px;
+}
+.community.review-write .write > .table-wrap > .btn-area {
+    text-align: center;
+}
+.community.review-write .write > .table-wrap > .btn-area > p > .btn {
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 13px !important;
+    display: inline-block !important;
+    margin: 0 !important;
+}
+.community.review-write .write > .table-wrap > .btn-area > p > .btn-green {
+    margin-right: 10px !important;
+}
+
+
+/* event */
+.community.event .event-info > .nav.nav-pills {
+    margin-top: 50px;
+}
+.community.event .event-info > .event-content {
+    overflow: hidden;
+}
+.community.event .event-info > .event-content > .search-form {
+    float: right;
+    margin: 50px 0;
+}
+.community.event .event-info > .event-content > .event-list {
+    clear: both;
+}
+.community.event .event-info > .event-content > .event-list > li {
+    display: inline-block;
+    margin: 0 63px 50px 0;
+}
+.community.event .event-info > .event-content > .event-list > li:nth-of-type(3) {
+    margin-right: 0;
+}
+.community.event .event-info > .event-content > .event-list > li:nth-of-type(6) {
+    margin-right: 0;
+}
+.community.event .event-info > .event-content > .event-list > li > a > h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #444;
+    margin: 0;
+    padding: 17px 0 5px;
+}
+.community.event .event-info > .event-content > .event-list > li > a > .date {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+
+/* notice */
+.community.notice .notice-list > .table-wrap {
+    position: relative;
+    padding-top: 100px;
+}
+.community.notice .notice-list > .table-wrap > .search-form {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.community.notice .notice-list > .table-wrap > .table {
+    margin-bottom: 50px;
+}
+.community.notice .notice-list > .table-wrap > .table > tbody > tr > td > a:hover {
+    text-decoration: underline !important;
+}

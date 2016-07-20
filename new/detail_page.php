@@ -28,7 +28,7 @@
                                 <dd>서피니아</dd>
                                 <dt>사이즈</dt>
                                 <dd>
-                                    <select name="size">
+                                    <select>
                                         <option value="">S</option>
                                         <option value="">M</option>
                                         <option value="">L</option>
@@ -36,7 +36,7 @@
                                 </dd>
                                 <dt>색상</dt>
                                 <dd>
-                                    <select name="size">
+                                    <select>
                                         <option value="">black</option>
                                         <option value="">blue</option>
                                         <option value="">red</option>
@@ -106,9 +106,11 @@
                                     <p>
                                         <img src="/assets/images/new/detail_product01.png" alt="">
                                     </p>
-                                    <label for="#">
-                                        <input type="checkbox" name="#">
-                                    </label>
+                                </a>
+                                <label for="check01">
+                                    <input type="checkbox" id="check01">
+                                </label>
+                                <a href="#">
                                     <h4>샘플아이템 01</h4>
                                     <p class="place">40,000 won</p>
                                     <p class="account">
@@ -120,8 +122,8 @@
                                     <button class="top">&and;</button>
                                     <button class="down">&or;</button>
                                 </p>
-                                <select name="#">
-                                    <option value=""></option>
+                                <select>
+                                    <option value="">option</option>
                                 </select>
                             </li>
                             <li>
@@ -129,9 +131,11 @@
                                     <p>
                                         <img src="/assets/images/new/detail_product01.png" alt="">
                                     </p>
-                                    <label for="#">
-                                        <input type="checkbox" name="#">
-                                    </label>
+                                </a>
+                                <label for="check02">
+                                    <input type="checkbox" id="check02">
+                                </label>
+                                <a href="#">
                                     <h4>샘플아이템 01</h4>
                                     <p class="place">40,000 won</p>
                                     <p class="account">
@@ -143,8 +147,8 @@
                                     <button class="top">&and;</button>
                                     <button class="down">&or;</button>
                                 </p>
-                                <select name="#">
-                                    <option value=""></option>
+                                <select>
+                                    <option value="">option</option>
                                 </select>
                             </li>
                             <li>
@@ -152,9 +156,11 @@
                                     <p>
                                         <img src="/assets/images/new/detail_product01.png" alt="">
                                     </p>
-                                    <label for="#">
-                                        <input type="checkbox" name="#">
-                                    </label>
+                                </a>
+                                <label for="check03">
+                                    <input type="checkbox" id="check03">
+                                </label>
+                                <a href="#">
                                     <h4>샘플아이템 01</h4>
                                     <p class="place">40,000 won</p>
                                     <p class="account">
@@ -166,8 +172,8 @@
                                     <button class="top">&and;</button>
                                     <button class="down">&or;</button>
                                 </p>
-                                <select name="#">
-                                    <option value=""></option>
+                                <select>
+                                    <option value="">option</option>
                                 </select>
                             </li>
                             <li>
@@ -175,9 +181,11 @@
                                     <p>
                                         <img src="/assets/images/new/detail_product01.png" alt="">
                                     </p>
-                                    <label for="#">
-                                        <input type="checkbox" name="#">
-                                    </label>
+                                </a>
+                                <label for="check04">
+                                    <input type="checkbox" id="check04">
+                                </label>
+                                <a href="#">
                                     <h4>샘플아이템 01</h4>
                                     <p class="place">40,000 won</p>
                                     <p class="account">
@@ -189,8 +197,8 @@
                                     <button class="top">&and;</button>
                                     <button class="down">&or;</button>
                                 </p>
-                                <select name="#">
-                                    <option value=""></option>
+                                <select>
+                                    <option value="">option</option>
                                 </select>
                             </li>
                             <li>
@@ -198,9 +206,11 @@
                                     <p>
                                         <img src="/assets/images/new/detail_product01.png" alt="">
                                     </p>
-                                    <label for="#">
-                                        <input type="checkbox" name="#">
-                                    </label>
+                                </a>
+                                <label for="check05">
+                                    <input type="checkbox" id="check05">
+                                </label>
+                                <a href="#">
                                     <h4>샘플아이템 01</h4>
                                     <p class="place">40,000 won</p>
                                     <p class="account">
@@ -212,8 +222,8 @@
                                     <button class="top">&and;</button>
                                     <button class="down">&or;</button>
                                 </p>
-                                <select name="#">
-                                    <option value=""></option>
+                                <select>
+                                    <option value="">option</option>
                                 </select>
                             </li>
                         </ul>

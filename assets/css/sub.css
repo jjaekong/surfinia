@@ -261,21 +261,157 @@
 
 
 /* search-result */
-.search-result .container .search {
-
-}
 .search-result .container .search .detailed-search {
-    margin-top: 31px;
+    position: relative;
     height: 160px;
     border: 3px solid #e8e8e8;
     background-image: url(/assets/images/sub/search_bg.jpg);
     padding: 44px 73px;
+    margin: 31px 0 50px 0;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl {
+    overflow: hidden;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dt {
+    display: inline;
+    float: left;
+    font-size: 13px;
+    width: 96px;
+    color: #666;
+    line-height: 35px;
+    font-weight: 300;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dt:nth-of-type(3) {
+    clear: left;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd {
+    display: inline;
+    float: left;
+    line-height: 35px;
+    color: #333;
+    margin-right: 32px;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd:nth-of-type(2) {
+    margin-right: 0;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd:nth-of-type(4) {
+    margin-right: 0;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > select {
+    width: 324px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > .terms-select {
+    width: 95px;
+    height: 30px;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > input:nth-of-type(1) {
+    margin-right: 5px;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > input:last-child {
+    margin-left: 5px;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > .terms {
+    width: 221px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    border: 1px solid #e6e6e6;
+}
+.search-result .container .search .detailed-search > .search-form > .inline-dl > dd > .count {
+    line-height: 18px;
+}
+.search-result .container .search .detailed-search > .search-form > .btn-area > p > .btn {
+    position: absolute;
+    top: 47px;
+    right: 69px;
+    font-size: 14px !important;
+    width: 130px !important;
+    height: 64px !important;
+    padding: 20px 15px !important;
 }
 
 
 
 
 
+
+.search-result .container .search > .result-list {
+    position: relative;
+    padding-top: 50px;
+    background-image: url(/assets/images/sub/line_bg.png);
+    background-position: top;
+    background-repeat: repeat-x;
+
+}
+.search-result .container .search > .result-list > .result-text {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.search-result .container .search > .result-list > .terms-list {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.search-result .container .search > .result-list > .terms-list > li {
+    font-size: 12px;
+    color: #666;
+    text-align:center;
+    display: inline-block;
+}
+.search-result .container .search > .result-list > .terms-list > li:before {
+    content: "|";
+    padding: 0 10px;
+}
+.search-result .container .search > .result-list > .terms-list > li:first-child:before {
+    content: "";
+    padding-left: 0;
+}
+.search-result .container .search > .result-list > .terms-list > .active {
+    font-weight: bold;
+}
+.search-result .container .search > .result-list > .product-item > li {
+    margin: 0 26px 30px 0 ;
+    display: inline-block;
+    vertical-align: top;
+}
+.search-result .container .search > .result-list > .product-item > li:nth-of-type(4) {
+    margin-right: 0;
+}
+.search-result .container .search > .result-list > .product-item > li:nth-of-type(8) {
+    margin-right: 0;
+}
+.search-result .container .search > .result-list > .product-item > li:nth-of-type(12) {
+    margin-right: 0;
+}
+.search-result .container .search > .result-list > .product-item > li:nth-of-type(16) {
+    margin-right: 0;
+}
+.search-result .container .search > .result-list > .product-item > li > a {
+    text-decoration: none;
+}
+.search-result .container .search > .result-list > .product-item > li > a > h4 {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    padding: 18px 0 4px 0;
+    font-weight: 600;
+}
+.search-result .container .search > .result-list > .product-item > li > a > p {
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.search-result .container .search > .result-list > nav > .pagination {
+    padding-top: 20px;
+}
 
 
 
