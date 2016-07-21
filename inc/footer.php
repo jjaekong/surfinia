@@ -49,7 +49,7 @@
                             <li><a href="#">이용문의</a></li>
                             <li><a href="#">공지사항</a></li>
                             <li><a href="#">제휴문의</a></li>
-                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">이용안내</a></li>
                             <li><a href="#">개인정보취급방침</a></li>
                         </ul>
                     </section>

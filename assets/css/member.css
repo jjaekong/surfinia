@@ -1,0 +1,355 @@
+/* login-공통 (로그인/비회원로그인) */
+.member.login .member-login > .section-content {
+    padding: 100px 0;
+}
+.member.login .member-login > .section-content > .login-form {
+    width: 570px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 60px 85px;
+}
+.member.login .member-login > .section-content > .login-form > .form-group {
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+.member.login .member-login > .section-content > .login-form > .form-group > label {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    width: 78px;
+    padding-top: 5px;
+}
+.member.login .member-login > .section-content > .login-form > .form-group > input {
+    float: left;
+    width: 322px;
+    height: 30px;
+    border: 1px solid #dadada;
+    border-radius: 0;
+}
+.member.login .member-login > .section-content > .login-form > .btn-area {
+    margin: 20px 0 27px;
+}
+.member.login .member-login > .section-content > .login-form > .btn-area > p > .btn {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    padding: 15px 15px !important;
+}
+.member.login .member-login > .section-content > .login-form > ul {
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    padding: 23px 0;
+    text-align: center;
+}
+.member.login .member-login > .section-content > .login-form > ul > li {
+    display: inline-block;
+    padding-right: 16px;
+}
+.member.login .member-login > .section-content > .login-form > ul > li > a {
+    font-size: 13px;
+    color: #666;
+}
+.member.login .member-login > .section-content > .login-form > ul > li:before {
+    content: "|";
+    padding-right: 16px;
+    color: #dadada;
+}
+.member.login .member-login > .section-content > .login-form > ul > li:first-child:before {
+    content: "";
+}
+.member.login .member-login > .section-content > .login-form > ul > li:last-child {
+    padding-right: 0;
+}
+/* login */
+/* nonmember */
+.member.nonmember .member-login > .section-content > .login-form > .btn-area > p > .btn-gray {
+    background-color: #c1c1c1;
+    color: #fff;
+}
+
+
+
+
+/* 아이디비번찾기 공통 (아이디/비번찾기) */
+.member.find .member-find > .section-content {
+    padding: 100px 0;
+}
+.member.find .member-find > .section-content > .find-form {
+    width: 570px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 60px 85px;
+}
+.member.find .member-find > .section-content > .find-form > h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin: 0;
+    padding-bottom: 35px;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > select {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #dadada;
+    float: left;
+    margin-right: 35px;
+}
+.member.find .member-find > .section-content > .find-form > .form-group {
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > label {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    width: 78px;
+    padding-top: 5px;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > input {
+    float: left;
+    width: 322px;
+    height: 30px;
+    border: 1px solid #dadada;
+    border-radius: 0;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > .choice {
+   float: left;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > .choice > input {
+   display: inline-block;;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > .choice > label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.member.find .member-find > .section-content > .find-form > .form-group > .choice > input:nth-of-type(2) {
+    margin-left: 19px;
+}
+.member.find .member-find > .section-content > .find-form > .btn-area {
+    margin-top: 20px;
+}
+.member.find .member-find > .section-content > .find-form > .btn-area > p > .btn {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    padding: 15px 15px !important;
+}
+
+
+/* join */
+.member.join i {
+    font-style: normal;
+    font-size: 12px;
+    color: #dc1c1c;
+    margin-left: 2px;
+}
+.member.join .join-write > .table-wrap {
+    padding-top: 50px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 17px 0 17px 27px;
+    vertical-align: top;
+    background-color: #f9f9f9;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > th > label {
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td {
+    font-size: 12px !important;
+    color: #333 !important;
+    padding: 8px !important;
+    text-align: left !important;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > input {
+    border: 1px solid #dadada;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > .type-txt {
+    width: 210px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(1) > td {
+    overflow: hidden;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(1) > td .type-txt {
+    float: left;
+    margin-right: 4px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(1) > td > .btn-area {
+    float: left;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(1) > td > .btn-area > p > .btn {
+    font-size: 11px !important;
+    width: 60px !important;
+    height: 30px !important;
+    padding: 6px 0 !important;
+    letter-spacing: 0 !important;
+    border-color: #ccc !important;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > .radio {
+    display: inline;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > .radio:nth-of-type(2) {
+    margin-left: 20px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > label {
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+    vertical-align: top;
+    margin-top: 2px;
+    padding-left: 3px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(5) td {
+    padding: 15px 0 15px 8px !important;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > label {
+    margin: 7px 15px 0 0;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > label:last-child {
+    margin-right: 0;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > .year {
+    width: 80px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > .day {
+    width: 60px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > .month {
+    width: 60px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > .radio {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(6) > td > label:nth-of-type(3) {
+    margin-right: 42px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td {
+    position: relative;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > input {
+    display: inline-block;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > .addr {
+    display: block;
+    width: 70px;
+    height: 30px;
+    margin-right: 4px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > .btn-area {
+    position: absolute;
+    top: 8px;
+    left: 82px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > .btn-area > p > .btn {
+    font-size: 11px !important;
+    width: 80px !important;
+    height: 30px !important;
+    padding: 6px 0 !important;
+    letter-spacing: 0 !important;
+    border-color: #ccc !important;
+    display: block !important;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > .address {
+    width: 565px;
+    height: 30px;
+    margin-top: 4px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(7) > td > label {
+    vertical-align: top;
+    margin-top: 11px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(8) > td > input {
+    width: 80px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(9) > td > input {
+    width: 80px;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > .email {
+    width: 156;
+    height: 30px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr:nth-of-type(10) > td > select {
+    margin-left: 9px;
+}
+.member.join .join-write > .table-wrap > .join-form > .table > tbody > tr > td > select {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #dadada;
+}
+.member.join .join-write > .consent {
+    margin-top: 52px;
+    overflow: hidden;
+}
+.member.join .join-write > .consent > div {
+    float: left;
+    width: 570px;
+    max-height: 160px;
+    overflow-y: scroll;
+    border: 1px solid #dadada;
+}
+.member.join .join-write > .consent > .clause {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

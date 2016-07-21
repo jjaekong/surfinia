@@ -143,55 +143,299 @@
     clear: both;
     padding-top: 30px;
 }
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dt:nth-of-type(5):after {
+    content: ":";
+    padding-left: 3px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5):before {
+     content: "";
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) {
+    margin-top: 90px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-indent: 10px;
+    border-bottom: 3px solid #333;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) h3 small {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 6px;
+    padding-bottom: 11px;
+    border-bottom: 3px solid #fff;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) h4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    padding: 50px 0 20px 0;
+    margin-left: 10px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) h4:nth-of-type(1) {
+    border-top: 1px solid #dadada;
+    width: 1170px;
+    display: block;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul {
+    margin-left: 10px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul > li {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul > li > i {
+    font-style: normal;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul > li > .green {
+    color: #5bc8bf;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul > li > .mint {
+    color: #80d5f8;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > ul > li > .orange {
+    color: #fcb060;
+    padding-left: 12px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > .table-wrap {
+    margin-left: 10px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > .table-wrap > .table > tbody > tr > th {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #dadada;
+    background-color: #fafafa;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > .table-wrap > .table > tbody > tr > td {
+    padding: 17px !important;
+    text-align: left !important;
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.introduce.guide .guide-list > .section-content > .delivery > .guide-content > .inline-dl > dd:nth-of-type(5) > p {
+    margin-left: 10px;
+    margin-bottom: 93px;
+}
+.introduce.guide .guide-list > .section-content > .exchange {
+    clear: both;
+
+}
+.introduce.guide .guide-list > .section-content > .exchange > .guide-content > h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.introduce.guide .guide-list > .section-content > .exchange > .guide-content > ul {
+    padding-bottom: 28px;
+}
+.introduce.guide .guide-list > .section-content > .exchange > .guide-content > ul > li {
+    position: relative;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #666;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.introduce.guide .guide-list > .section-content > .exchange > .guide-content > ul > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "-";
+}
+.introduce.guide .guide-list > .section-content > .exchange > .guide-content > .attention:before {
+    content: "※";
+}
+.introduce.guide .guide-list > .section-content > .etc > .guide-content > h3:nth-of-type(1) {
+    padding-top: 0;
+}
+.introduce.guide .guide-list > .section-content > .etc > .guide-content > h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    padding: 28px 0 10px;
+}
+
+
+/* sevice-terms , privacy-statsment */
+/* 이용약관 / 개인정보 공통 */
+.introduce.common-clause .terms > .section-content {
+    margin-top: 50px;
+    height: 942px;
+    padding: 27px;
+    background-color: #f6f6f6;
+}
+.introduce.common-clause .terms > .section-content > .clause {
+    max-height: 882px;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 28px;
+}
+.introduce.common-clause .terms > .section-content > .clause > h2 {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    margin: 0;
+    padding: 30px 0 20px;
+}
+.introduce.common-clause .terms > .section-content > .clause > p {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+.introduce.common-clause .terms > .section-content > .clause > .attention:before {
+    content: "※";
+    line-height: 22px;
+}
+.introduce.common-clause .terms > .section-content > .clause > .circle-list > li {
+    position: relative;
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    padding-left: 15px;
+    counter-increment: my-list-index;
+}
+.introduce.common-clause .terms > .section-content > .clause > .circle-list > li:before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    content: counter(my-list-index);
+    font-size: 11px;
+    text-align: center;
+    line-height: 11px;
+    list-style-position: inside;
+}
+.introduce.common-clause .terms > .section-content > .clause > .decimal-list > li {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    list-style: decimal;
+    list-style-position: inside;
+}
+.introduce.common-clause .terms > .section-content > .clause > .circle-list > li > .decimal-list {
+    margin: 20px 0 20px 20px;
+}
+.introduce.common-clause .terms > .section-content > .clause > .circle-list > li > .decimal-list > li {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    list-style: decimal;
+}
+.introduce.common-clause .circle:before {
+    content: "○";
+}
+.introduce.common-clause .inline-dl {
+    overflow: hidden;
+}
+.introduce.common-clause .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    font-weight: 300;
+}
+.introduce.common-clause .inline-dl > dd {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+.introduce.common-clause .inline-dl > dd:before {
+    content: ":";
+    padding-left: 3px;
+}
 
 
 
+/* sevice-terms */
+.introduce.sevice-terms .terms > .section-content > .clause > h2:first-child {
+    padding-top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* privacy-statsment */
+.introduce.privacy-statsment .terms > .section-content > .clause > h2:before {
+    content: "■";
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > h3 {
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > h3:before {
+    content: "▶";
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > p:first-child {
+    padding-bottom: 0;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > p {
+    padding-bottom: 20px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .circle {
+    padding-bottom: 0 !important;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .line {
+    padding-bottom: 0 !important;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .line:before {
+    content: "-";
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .standard:before {
+    content: "";
+    margin-left: -3px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .list-dl {
+    width: 400px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .list-dl > li {
+    padding: 5px 0;
+    border-top: 1px solid #dadada;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .list-dl > li:last-child {
+    border-bottom: 1px solid #dadada;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .list-dl > li > .inline-dl > dd {
+    padding-left: 46px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .inline-dl:nth-of-type(3) > dd:nth-of-type(3) {
+    margin-bottom: 20px;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > .inline-dl:nth-of-type(3) > dd:nth-of-type(6) {
+    margin-bottom: 20px;
+}
+.introduce.privacy-statsment a:hover {
+    text-decoration: underline !important;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > h2:nth-of-type(4) {
+    padding-top: 0;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > h2:nth-of-type(8) {
+    padding-top: 0;
+}
+.introduce.privacy-statsment .terms > .section-content > .clause > h2:nth-of-type(9) {
+    padding-top: 0;
+}
