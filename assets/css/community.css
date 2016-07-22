@@ -78,7 +78,10 @@
     display: inline;
     margin-right: 10px;
 }
-
+.community.review-list .review > .table-wrap > .table > tbody > tr > td > p > img {
+    width: 60px;
+    height: 70px;
+}
 
 /* review-view */
 .community.review-view .view > .table-wrap {
@@ -112,6 +115,10 @@
     width: 85px;
     height: 105px;
     margin-right: 16px;
+}
+.community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > p > img {
+    width: 85px;
+    height: 105px;
 }
 .community.review-view .view > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > .detail-view > h6 {
     font-size: 12px;
@@ -245,6 +252,10 @@
 }
 .community.event .event-info > .event-content > .event-list > li:nth-of-type(6) {
     margin-right: 0;
+}
+.community.event .event-info > .event-content > .event-list > li > a > p > img {
+    width: 340px;
+    height: 350px;
 }
 .community.event .event-info > .event-content > .event-list > li > a > h5 {
     font-size: 15px;

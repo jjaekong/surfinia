@@ -8,6 +8,10 @@
     float: left;
     margin-right: 30px;
 }
+.new.product-list .container .product header > p > a > img {
+    width: 660px;
+    height: 400px;
+}
 .new.product-list .container .product header .best-list {
     width: 480px;
     height: 400px;
@@ -107,6 +111,10 @@
     display: inline-block;
     vertical-align: top;
 }
+.new.product-list .container .product > .article-content > .product-item > li > a > p > img {
+    width: 270px;
+    height: 320px;
+}
 .new.product-list .container .product > .article-content > .product-item > li:nth-of-type(4) {
     margin-right: 0;
 }
@@ -152,9 +160,11 @@
 }
 .new.detail-page .detail > header > .detail-img {
     float: left;
-    max-width: 630px;
-    max-height: 700px;
     margin-right: 68px;
+}
+.new.detail-page .detail > header > .detail-img > img {
+    width: 630px;
+    height: 700px;
 }
 .new.detail-page .detail > header > .product-detail {
     float: left;
@@ -266,6 +276,9 @@
     position: relative;
     padding-top: 85px;
 }
+.new.detail-page .detail > header > .product-detail > .btn-area > .btn {
+    letter-spacing: 2px !importnat;
+}
 .new.detail-page .detail > header > .product-detail > .btn-area > .sns {
     position: absolute;
     top: 20px;
@@ -301,6 +314,10 @@
     margin: 0;
     font-weight: 600;
     padding-bottom: 3px;
+}
+.new.detail-page .detail > .appraisal > .recommend-items > .product-list > li > a > p > img {
+    width: 198px;
+    height: 250px;
 }
 .new.detail-page .detail > .appraisal > .recommend-items > .product-list > li:last-child {
     margin-right: 0;
@@ -372,18 +389,4 @@
 }
 .new.detail-page .detail > .appraisal > .qna > nav {
     padding-top: 50px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
