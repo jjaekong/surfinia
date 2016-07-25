@@ -48,7 +48,9 @@
                                 <td>10</td>
                                 <td>
                                    <p>
-                                       <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       <a href="#">
+                                           <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       </a>
                                    </p>
                                     샘플아이템
                                 </td>
@@ -61,7 +63,9 @@
                                 <td>10</td>
                                 <td>
                                    <p>
-                                       <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       <a href="#">
+                                           <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       </a>
                                    </p>
                                     샘플아이템
                                 </td>
@@ -74,7 +78,9 @@
                                 <td>10</td>
                                 <td>
                                    <p>
-                                       <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       <a href="#">
+                                           <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       </a>
                                    </p>
                                     샘플아이템
                                 </td>
@@ -87,7 +93,9 @@
                                 <td>10</td>
                                 <td>
                                    <p>
-                                       <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       <a href="#">
+                                           <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       </a>
                                    </p>
                                     샘플아이템
                                 </td>
@@ -100,7 +108,9 @@
                                 <td>10</td>
                                 <td>
                                    <p>
-                                       <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       <a href="#">
+                                           <img src="/assets/images/community/review_img01.jpg" alt="상품이미지">
+                                       </a>
                                    </p>
                                     샘플아이템
                                 </td>

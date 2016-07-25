@@ -55,7 +55,7 @@
                 </div>
                 <ul class="my-list">
                     <li>
-                        <a href="#">
+                        <a href="/membership/mylist.php">
                             <h2>ORDER</h2>
                             <p>주문내역조회</p>
                         </a>
@@ -67,31 +67,31 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/membership/interest_product.php">
                             <h2>WISHLIST</h2>
                             <p>관심상품</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/membership/basket.php">
                             <h2>CART</h2>
                             <p>장바구니</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/membership/coupon.php">
                             <h2>COUPON</h2>
                             <p>쿠폰</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/membership/saved_money.php">
                             <h2>POINT</h2>
                             <p>적립금</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/community/qna.php">
                             <h2>Q&amp;A</h2>
                             <p>묻고답하기</p>
                         </a>

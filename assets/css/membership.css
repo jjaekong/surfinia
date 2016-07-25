@@ -299,6 +299,16 @@
     line-height: 20ppx;
     text-align: center;
 }
+.membership.mylist .table-wrap > .table > tbody > tr:nth-of-type(1) td > .btn-area > p > .btn {
+    width: 100px !important;
+    height: 30px !important;
+    margin: 5px 0 0 0 !important;
+    padding: 5px 0 !important;
+    border-color: #dadada !important;
+}
+.membership.mylist .table-wrap > .table > tbody > tr > td > a:hover {
+    text-decoration: underline !important;
+}
 .membership.mylist .table-wrap > .table > tbody > tr > td > a > img {
     width: 110px;
     height: 130px;
@@ -972,7 +982,10 @@
     margin-right: 5px;
     border: 1px solid #dadada;
 }
-.membership.coupon .my-coupon > .register > label > .btn {
+.membership.coupon .my-coupon > .register > p {
+    display: inline;
+}
+.membership.coupon .my-coupon > .register > p > .btn {
     width: 120px;
     height: 40px;
     background-color: #99cccc;

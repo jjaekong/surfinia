@@ -8,7 +8,7 @@
         <div class="container">
             <section class="bascat-info">
                 <div class="section-header">
-                    <h1>관심상품</h1>
+                    <h1>장바구니</h1>
                 </div>
                 <div class="table-wrap">
                     <table class="table table-border">
@@ -51,7 +51,7 @@
                                     </a>
                                 </td>
                                 <td>
-                                    샘플아이템<br>
+                                    <a href="#">샘플아이템</a><br>
                                     <dl class="inline-dl">
                                         <dt>옵션</dt>
                                         <dd>00</dd>

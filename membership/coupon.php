@@ -13,7 +13,10 @@
                 <h2>쿠폰인증번호 등록하기</h2>
                 <div class="register">
                     <input type="text" id="coupon-number">
-                    <label for="coupon-number"><a href="#" class="btn" role="button">쿠폰번호 인증</a></label>
+                    <label for="coupon-number" class="sr_only"></label>
+                    <p>
+                        <a href="#" class="btn" role="button">쿠폰번호 인증</a>
+                    </p>
                 </div>
                 <div class="table-wrap">
                     <table class="table table-border">

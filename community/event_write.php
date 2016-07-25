@@ -87,7 +87,7 @@
                     <ul class="comment-view">
                         <li>
                             <h4>abc111 <span class="date">2016-03-27 오후 6:00:00</span></h4>
-                            댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.
+                            <p>댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.</p>
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn" role="button"><img src="/assets/images/community/comment_btn01.png" alt="글쓰기"></a>
@@ -97,7 +97,7 @@
                         </li>
                         <li>
                             <h4>abc111 <span class="date">2016-03-27 오후 6:00:00</span></h4>
-                            댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.
+                            <p>댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.</p>
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn" role="button"><img src="/assets/images/community/comment_btn01.png" alt="글쓰기"></a>
@@ -107,7 +107,7 @@
                         </li>
                         <li>
                             <h4>abc111 <span class="date">2016-03-27 오후 6:00:00</span></h4>
-                            댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.
+                            <p>댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다. 댓글내용입니다.</p>
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn" role="button"><img src="/assets/images/community/comment_btn01.png" alt="글쓰기"></a>

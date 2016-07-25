@@ -63,6 +63,7 @@
 .community.review-list .review > .table-wrap > .table > tbody > tr > td {
     vertical-align: middle;
 }
+
 .community.review-list .review > .table-wrap > .table > tbody > tr > td:nth-of-type(3) {
     text-align: left !important;
     padding-left: 45px !important;
@@ -253,6 +254,9 @@
 .community.event .event-info > .event-content > .event-list > li:nth-of-type(6) {
     margin-right: 0;
 }
+.community.event .event-info > .event-content > .event-list > li > a:hover > p > img {
+    opacity: 0.8;
+}
 .community.event .event-info > .event-content > .event-list > li > a > p > img {
     width: 340px;
     height: 350px;
@@ -437,11 +441,17 @@
 }
 .community.event-write .event-info > .comment > .comment-view > li {
     position: relative;
+    padding: 38px 0 27px;
+    border-top: 1px solid #dadada;
+}
+.community.event-write .event-info > .comment > .comment-view > li > p {
     font-size: 12px;
     color: #9b9b9b;
     line-height: 35px;
-    padding: 38px 0 27px;
-    border-top: 1px solid #dadada;
+    padding-left: 10px;
+}
+.community.event-write .event-info > .comment > .comment-view > li > p:before {
+    content: "ㄴ";
 }
 .community.event-write .event-info > .comment > .comment-view > li:first-child {
     border-top: 0;
@@ -474,11 +484,21 @@
 }
 
 
+/* qna-write */
+.community.qna-write .write > .table-wrap > .table > tbody > tr:nth-of-type(4) > td > input {
+    width: 250px;
+    float: left;
+}
 
+/* qna-view */
+.community.qna-view .view > .table-wrap > .table > tbody > tr:nth-of-type(7) > td {
+    padding: 7px 0 7px 17px !important;
+}
+.community.qna-view .view > .table-wrap > .table > tbody > tr:nth-of-type(7) > td > input {
 
-
-
-
+    width: 250px;
+    height: 30px;
+}
 
 
 

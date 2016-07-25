@@ -42,13 +42,13 @@
                 <div class="table-wrap">
                     <table class="table table-border">
                         <colgroup>
-                            <col style=" width: 158px;">
-                            <col style=" width: 130px;">
-                            <col style=" width: 417px;">
-                            <col style=" width: 101px;">
-                            <col style=" width: 126px;">
-                            <col style=" width: 127px;">
-                            <col style=" width: 128px;">
+                            <col style="width:158px;">
+                            <col style="width:130px;">
+                            <col style="width:417px;">
+                            <col style="width:101px;">
+                            <col style="width:126px;">
+                            <col style="width:127px;">
+                            <col style="width:128px;">
                         </colgroup>
                         <thead>
                             <tr>
@@ -63,14 +63,22 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>2016-07-07<br>(298383929300)</td>
+                                <td>
+                                    2016-07-07<br><a href="#">(298383929300)</a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-white" role="button">주문취소</a>
+                                            <a href="#" class="btn btn-white" role="button">교환신청</a>
+                                        </p>
+                                    </div>
+                                </td>
                                 <td>
                                     <a href="#">
                                         <img src="/assets/images/membership/order_img01.jpg" alt="구매상품이미지">
                                     </a>
                                 </td>
                                 <td>
-                                    샘플아이템<br>
+                                    <a href="#">샘플아이템</a><br>
                                     <dl class="inline-dl">
                                         <dt>옵션</dt>
                                         <dd>00</dd>

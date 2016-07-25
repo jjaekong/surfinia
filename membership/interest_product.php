@@ -49,7 +49,7 @@
                                     </a>
                                 </td>
                                 <td>
-                                    샘플아이템<br>
+                                    <a href="#">샘플아이템</a><br>
                                     <dl class="inline-dl">
                                         <dt>옵션</dt>
                                         <dd>00</dd>

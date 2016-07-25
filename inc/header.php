@@ -7,7 +7,7 @@
                 <ul class="member">
                     <li><a href="/member/login.php">LOGIN</a></li>
                     <li><a href="/member/join.php">JOIN</a></li>
-                    <li><a href="/membership/basket .php">CART</a></li>
+                    <li><a href="/membership/basket.php">CART</a></li>
                     <li><a href="/membership/mypage.php">MYPAGE</a></li>
                 </ul>
             </div>

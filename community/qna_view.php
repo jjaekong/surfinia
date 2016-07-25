@@ -4,11 +4,11 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="community review-view">
+    <main id="content" tabindex="-1" class="community review-view qna-view">
         <div class="container">
             <section class="view">
                 <div class="section-header">
-                    <h1>상품후기</h1>
+                    <h1>Q&amp;A</h1>
                 </div>
                 <div class="table-wrap">
                     <table class="table table-border">
@@ -53,6 +53,10 @@
                             <tr>
                                 <th>파일</th>
                                 <td><a href="#">111.jpg</a></td>
+                            </tr>
+                            <tr>
+                                <th><label for="user-pw"></label>비밀번호</th>
+                                <td><input type="password" id="user-pw"></td>
                             </tr>
                         </tbody>
                     </table>

@@ -7,6 +7,36 @@
 #content .container a:hover {
     opacity: 0.8;
 }
+#content .container input {
+    box-shadow: none;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+#content .container input:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+#content .container textarea {
+    box-shadow: none;
+    padding: 5px;
+    border: 1px solid #dadada;
+}
+#content .container textarea:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+#content .container select {
+    box-shadow: none;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+#content .container select:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+#content .container label {
+    margin-bottom: 0;
+}
 #content .container > section .section-header {
     border-bottom: 1px solid #e9e9e9;
 }
@@ -130,6 +160,12 @@
     color: #333;
     padding: 17px 0;
     text-align: center;
+}
+#content .container .table-wrap .table tbody tr td a:hover {
+    text-decoration: underline !important;
+}
+#content .container .table-wrap .table tbody tr td .btn-area .btn:hover {
+    text-decoration: none !important;
 }
 #content .container .table-wrap .table tbody tr td:nth-of-type(2) {
     padding-left: 20px;
