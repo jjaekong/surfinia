@@ -57,6 +57,7 @@
 }
 .member.login .member-login > .section-content > .login-form > ul > li:first-child:before {
     content: "";
+    padding-right: 0;
 }
 .member.login .member-login > .section-content > .login-form > ul > li:last-child {
     padding-right: 0;

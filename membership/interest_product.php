@@ -79,7 +79,7 @@
                         <a href="#" class="btn btn-white" role="button">장바구니담기</a>
                     </p>
                     <p class="last-btn">
-                        <a href="#" class="btn btn-green" role="button">전체상품주</a>
+                        <a href="#" class="btn btn-green" role="button">전체상품주문</a>
                         <a href="#" class="btn btn-white" role="button">관심상품 비우기</a>
                     </p>
                 </div>

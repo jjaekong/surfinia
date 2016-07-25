@@ -287,3 +287,222 @@
 .community.notice .notice-list > .table-wrap > .table > tbody > tr > td > a:hover {
     text-decoration: underline !important;
 }
+
+
+/* event-write */
+.community.event-write .event-info {
+    overflow: hidden;
+}
+.community.event-write .event-info > h2 {
+    margin: 50px 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+}
+.community.event-write .event-info > .sns-menu {
+    margin-top: 42px;
+    float: right;
+    display: inline-block;
+}
+.community.event-write .event-info > .sns-menu > li {
+    display: inline-block;
+}
+.community.event-write .event-info > .event-view > .event-header {
+    padding: 17px 10px;
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #333;
+}
+.community.event-write .event-info > .event-view > .event-header > ul > li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.community.event-write .inline-dl > dt {
+    font-weight: 300;
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+}
+.community.event-write .inline-dl > dd {
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+}
+.community.event-write .inline-dl > dd:before {
+    content: ":";
+    padding-right: 3px;
+}
+.community.event-write .event-info > .event-view > .article-content {
+    height: 573px;
+    position: relative;
+}
+.community.event-write .event-info > .event-view > .article-content > .attach {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 17px 10px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.community.event-write .event-info > .event-view > .article-content > .attach .inline-dl > dd > a:hover {
+    text-decoration: underline !important;
+}
+.community.event-write .event-info > .event-view > .article-content > .attach .inline-dl > dt:after {
+    content: ":";
+}
+.community.event-write .event-info > .event-view > .article-content > .attach .inline-dl > dd:before {
+    content: "";
+    padding: 0;
+}
+.community.event-write .event-info > .event-view > .article-content > .attach .inline-dl > dd:after{
+    content: ",";
+    padding-right: 5px;
+}
+.community.event-write .event-info > .event-view > .article-content > .attach .inline-dl > dd:last-child:after {
+    content: "";
+}
+.community.event-write .event-info > .event-view > .btn-area {
+    margin-top: 18px;
+    overflow: hidden;
+}
+.community.event-write .event-info > .event-view > .btn-area > .first-btn {
+    float: left;
+}
+.community.event-write .event-info > .event-view > .btn-area > .first-btn > .btn {
+    width: 80px !important;
+    height: 35px !important;
+    padding: 8px 0 !important;
+}
+.community.event-write .event-info > .event-view > .btn-area > .last-btn {
+    float: right;
+}
+.community.event-write .event-info > .event-view > .btn-area > .last-btn > .btn-black {
+    width: 100px !important;
+    height: 35px !important;
+    padding: 8px 0 !important;
+    background-color: #222;
+    color: #fff;
+}
+.community.event-write .event-info > .comment {
+    margin-top: 100px;
+    padding: 35px 30px;
+    background-color: #fafafa;
+}
+.community.event-write .event-info > .comment > h3 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 800;
+    margin: 0 0 18px 0;
+}
+.community.event-write .event-info > .comment > .comment-write {
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8d8d8d;
+}
+.community.event-write .event-info > .comment > .comment-write > label {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #222;
+    font-weight: 300;
+}
+.community.event-write .event-info > .comment > .comment-write > input {
+    width: 140px;
+    height: 28px;
+    margin-right: 25px;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+.community.event-write .event-info > .comment > .comment-write > textarea {
+    float: left;
+    width: 960px;
+    height: 80px;
+    border: 1px solid #dadada;
+    margin-top: 10px;
+    padding: 5px;
+}
+.community.event-write .event-info > .comment > .comment-write > .btn-area {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.community.event-write .event-info > .comment > .comment-write > .btn-area > p {
+    margin: 0;
+}
+.community.event-write .event-info > .comment > .comment-write > .btn-area > p > .btn {
+    font-size: 14px !important;
+    width: 140px !important;
+    height: 80px !important;
+    padding: 30px 0 !important;
+    margin: 0 !important;
+    display: inline-block !important;
+}
+.community.event-write .event-info > .comment > .comment-view > li {
+    position: relative;
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 35px;
+    padding: 38px 0 27px;
+    border-top: 1px solid #dadada;
+}
+.community.event-write .event-info > .comment > .comment-view > li:first-child {
+    border-top: 0;
+}
+.community.event-write .event-info > .comment > .comment-view > li > h4 {
+    font-size: 13px;
+    color: #444;
+    font-weight: bold;
+}
+.community.event-write .event-info > .comment > .comment-view > li > h4 > .date {
+    color: #9b9b9b;
+    font-weight: 300;
+}
+.community.event-write .event-info > .comment > .comment-view > li > h4 > .date:before {
+    content: "(";
+}
+.community.event-write .event-info > .comment > .comment-view > li > h4 > .date:after {
+    content: ")";
+}
+.community.event-write .event-info > .comment > .comment-view > li > .btn-area {
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+.community.event-write .event-info > .comment > .comment-view > li > .btn-area > p > .btn {
+    margin-left: 2px !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

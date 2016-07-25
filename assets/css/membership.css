@@ -784,6 +784,11 @@
 .membership.interest-product .interest > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dd:after {
     content: "]";
 }
+
+
+
+
+
 .membership.interest-product .interest > .btn-area {
     overflow: hidden;
 }
@@ -817,6 +822,225 @@
 .membership.interest-product .interest > .btn-area > .last-btn > .btn-green {
     margin-right: 10px !important;
 }
+
+
+/* bascat */
+.membership.bascat .bascat-info > .table-wrap {
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+.membership.bascat .bascat-info > .table-wrap > .table {
+    border-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.membership.bascat .bascat-info > .table-wrap > .table {
+    border-top: 0 !important;
+    margin-bottom: 15px;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > thead > tr > th {
+    border-right: 1px solid #dadada;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > thead > tr > th:last-child {
+    border-right: 0;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td {
+    border-right: 1px solid #dadada;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:last-child {
+    border-right: 0;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td > a > img {
+    width: 85px;
+    height: 105px;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td {
+    vertical-align: middle;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) {
+    padding: 7px !important;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) {
+    text-align: left !important;
+    padding: 20px 12px !important;
+    vertical-align: top;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:last-child {
+    padding: 10px 22px !important;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:last-child > .btn-area > p > .btn {
+    width: 80px !important;
+    height: 30px !important;
+    padding: 6px 0 !important;
+    margin: 0 0 4px 0 !important;
+    border-color: #dadada !important;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl {
+    margin-top: 5px;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dt {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dt:before {
+    content: "[";
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dd {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dd:before {
+    content: ":";
+    padding-right: 3px;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(3) > .inline-dl > dd:after {
+    content: "]";
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(5) {
+    padding: 0 10px !important;
+    vertical-align: middle !important;
+}
+.membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(5) > .btn-area > p > .btn  {
+    width: 55px !important;
+    height: 27px !important;
+    padding: 5px 0!important;
+    margin-top: 4px !important;
+    border-color: #dadada !important;
+}
+.membership.bascat .bascat-info > .table-wrap > p {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #666;
+    width: 100%;
+    padding: 23px 15px;
+    background-color: #fafafa;
+}
+.membership.bascat .bascat-info > .table-wrap > p > strong {
+    font-size: 18px;
+    color: #333;
+}
+.membership.bascat .bascat-info > .btn-area > .first-btn {
+    margin-top: 15px;
+    color: #333;
+}
+.membership.bascat .bascat-info > .btn-area > .first-btn > .btn {
+
+    width: 60px !important;
+    height: 28px !important;
+    padding: 5px 0!important;
+}
+.membership.bascat .bascat-info > .btn-area > .last-btn {
+    text-align: center;
+    margin-top: 60px;
+}
+.membership.bascat .bascat-info > .btn-area > .last-btn > .btn {
+    display: inline-block !important;
+    width: 150px !important;
+    height: 50px !important;
+    margin: 0 !important;
+}
+.membership.bascat .bascat-info > .btn-area > .last-btn > .btn-green {
+    margin-right: 10px !important;
+}
+
+
+
+/* coupon */
+.membership.coupon .my-coupon > h2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.membership.coupon .my-coupon > .register {
+    background-color: #f6f9f9;
+    border: 1px solid #dadada;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.membership.coupon .my-coupon > .register > input {
+    width: 325px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #dadada;
+}
+.membership.coupon .my-coupon > .register > label > .btn {
+    width: 120px;
+    height: 40px;
+    background-color: #99cccc;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 0;
+}
+.membership.coupon .my-coupon > .table-wrap {
+    border-top: 1px solid #333;
+}
+.membership.coupon .my-coupon > .table-wrap > .table {
+    margin-bottom: 0 !important;
+}
+.membership.coupon .my-coupon > .table-wrap > .table-border {
+    border-top: 0 !important;
+}
+.membership.coupon .my-coupon > .table-wrap > .table > thead > tr > th {
+    border-right: 1px solid #dadada;
+}
+.membership.coupon .my-coupon > .table-wrap > .table > thead > tr > th:last-child {
+    border-right: 0;
+}
+.membership.coupon .my-coupon > .table-wrap > .table > tbody > tr > td {
+    border-right: 1px solid #dadada;
+}
+.membership.coupon .my-coupon > .table-wrap > .table > tbody > tr > td:last-child {
+    border-right: 0;
+}
+.membership.coupon .my-coupon > nav {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

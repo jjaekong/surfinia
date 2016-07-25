@@ -220,6 +220,7 @@
     padding: 3px 0 0 6px;
     color: #000;
     font-size: 11px;
+    text-align: left;
 }
 #content .container .count > button {
     position: absolute;

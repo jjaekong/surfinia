@@ -4,9 +4,9 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="membership interest-product">
+    <main id="content" tabindex="-1" class="membership bascat">
         <div class="container">
-            <section class="interest">
+            <section class="bascat-info">
                 <div class="section-header">
                     <h1>관심상품</h1>
                 </div>
@@ -64,6 +64,11 @@
                                         <button class="top">&and;</button>
                                         <button class="down">&or;</button>
                                     </p>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-white">변경</a>
+                                        </p>
+                                    </div>
                                 </td>
                                 <td>250원</td>
                                 <td>2,500원</td>
@@ -80,14 +85,15 @@
                             </tr>
                         </tbody>
                     </table>
+                    <p>상품구매금액 59,000 + 배송비 0 = <strong>59,000원</strong></p>
                 </div>
                 <div class="btn-area">
                     <p class="first-btn">
-                        선택상품을 
+                        선택상품을
                         <a href="#" class="btn btn-white" role="button">삭제</a>
                     </p>
                     <p class="last-btn">
-                        <a href="#" class="btn btn-green" role="button">전체상품주</a>
+                        <a href="#" class="btn btn-green" role="button">전체상품주문</a>
                         <a href="#" class="btn btn-white" role="button">선택상품주문</a>
                     </p>
                 </div>
