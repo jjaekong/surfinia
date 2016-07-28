@@ -12,34 +12,29 @@
                         <a href="#"><img src="/assets/images/new/product_img01.jpg" alt=""></a>
                     </p>
                     <div class="best-list">
-                        <ul class="best">
+                        <ul class="best" id="shortcuts">
                             <li>
                                 <a href="#">
-                                    <h5><small>BEST</small><br>01</h5>
                                     <p>
                                         <img src="/assets/images/new/best_img01.jpg" alt="">
                                     </p>
-                                    <h4>샘플아이템 01</h4>
-                                    <span class="reduction">50,000 won</span>
-                                    <p class="place">40,000 won</p>
-                                    <p class="lable-wrap">
-                                        <span class="lable label-default lable-green">BEST</span>
-                                        <span class="lable label-default lable-white">NEW</span>
-                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
                                 </a>
                             </li>
                              <li>
                                 <a href="#">
-                                    <h5><small>BEST</small><br>02</h5>
                                     <p>
                                         <img src="/assets/images/new/best_img02.jpg" alt="">
                                     </p>
-                                    <h4>샘플아이템 01</h4>
-                                    <span class="reduction">50,000 won</span>
-                                    <p class="place">40,000 won</p>
-                                    <p class="lable-wrap">
-                                        <span class="lable label-default lable-green">BEST</span>
-                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
@@ -297,5 +292,15 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery.bxslider.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script type="text/javascript">
+        $('#shortcuts .slider').bxSlider({
+            minSlides: 3,
+            maxSlides: 3,
+            slideWidth: 100,
+            moveSlides: 3,
+            pager: false,
+            controls: true
+        });
+    </sctipt>
 </body>
 </html>
