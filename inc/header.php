@@ -18,7 +18,7 @@
                 <form class="search">
                     <div class="form-group">
                         <input type="text" class="form-control">
-                        <button type="button" class="btn btn-link"><span class="glyphicon glyphicon-search"></span></button>
+                        <button type="button" class="btn btn-link"><img src="/assets/images/ico_search.png" alt="검색"></button>
                     </div>
                 </form>
             </div>
