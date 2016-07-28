@@ -188,30 +188,30 @@
 .community.review-write .write > .table-wrap {
     padding-top: 50px;
 }
-.community.review-write .write > .table-wrap > .table {
+.community.review-write .write > .table-wrap > form > .table {
     margin-bottom: 50px;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr > th {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr > th {
     border-bottom: 1px solid #ddd;
     background-color: #fafafa;
     font-weight: bold;
     vertical-align: middle;
     padding-left: 20px !important;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr:first-child > th {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr:first-child > th {
     border-top: 1px solid #333;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr:first-child > td {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr:first-child > td {
     border-top: 1px solid #333;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr > td {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr > td {
     padding: 7px !important;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr > td > input {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr > td > input {
     width: 997px;
     height: 30px;
 }
-.community.review-write .write > .table-wrap > .table > tbody > tr > td > textarea {
+.community.review-write .write > .table-wrap > form > .table > tbody > tr > td > textarea {
     width: 997px;
     height: 360px;
 }
@@ -403,20 +403,20 @@
     padding-bottom: 30px;
     border-bottom: 1px solid #8d8d8d;
 }
-.community.event-write .event-info > .comment > .comment-write > label {
+.community.event-write .event-info > .comment > .comment-write > form > label {
     margin-right: 10px;
     font-size: 12px;
     color: #222;
     font-weight: 300;
 }
-.community.event-write .event-info > .comment > .comment-write > input {
+.community.event-write .event-info > .comment > .comment-write > form > input {
     width: 140px;
     height: 28px;
     margin-right: 25px;
     padding-left: 5px;
     border: 1px solid #dadada;
 }
-.community.event-write .event-info > .comment > .comment-write > textarea {
+.community.event-write .event-info > .comment > .comment-write > form > textarea {
     float: left;
     width: 960px;
     height: 80px;
@@ -424,14 +424,14 @@
     margin-top: 10px;
     padding: 5px;
 }
-.community.event-write .event-info > .comment > .comment-write > .btn-area {
+.community.event-write .event-info > .comment > .comment-write > form > .btn-area {
     float: left;
     margin: 10px 0 0 10px;
 }
-.community.event-write .event-info > .comment > .comment-write > .btn-area > p {
+.community.event-write .event-info > .comment > .comment-write > form > .btn-area > p {
     margin: 0;
 }
-.community.event-write .event-info > .comment > .comment-write > .btn-area > p > .btn {
+.community.event-write .event-info > .comment > .comment-write > form > .btn-area > p > .btn {
     font-size: 14px !important;
     width: 140px !important;
     height: 80px !important;
@@ -499,5 +499,30 @@
     width: 250px;
     height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
