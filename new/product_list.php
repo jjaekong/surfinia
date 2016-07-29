@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/new.css" rel="stylesheet">
 </head>
@@ -12,7 +13,55 @@
                         <a href="#"><img src="/assets/images/new/product_img01.jpg" alt=""></a>
                     </p>
                     <div class="best-list">
-                        <ul class="best" id="shortcuts">
+                        <ul class="best">
+                            <li>
+                                <a href="#">
+                                    <p>
+                                        <img src="/assets/images/new/best_img01.jpg" alt="">
+                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    <p>
+                                        <img src="/assets/images/new/best_img02.jpg" alt="">
+                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>
+                                        <img src="/assets/images/new/best_img01.jpg" alt="">
+                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
+                                </a>
+                            </li>
+                             <li>
+                                <a href="#">
+                                    <p>
+                                        <img src="/assets/images/new/best_img02.jpg" alt="">
+                                    </p>
+                                    <div class="hover-text">
+                                        <hr>
+                                        <h4>샘플아이템 01</h4>
+                                        <p>50,000 won</p>
+                                    </div>
+                                </a>
+                            </li>
                             <li>
                                 <a href="#">
                                     <p>
@@ -290,17 +339,18 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="/assets/js/jquery.bxslider.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript"  src="/assets/js/jquery.bxslider.min.js"></script>
     <script type="text/javascript">
-        $('#shortcuts .slider').bxSlider({
-            minSlides: 3,
-            maxSlides: 3,
-            slideWidth: 100,
-            moveSlides: 3,
-            pager: false,
-            controls: true
+        $('.best-list .best').bxSlider({
+            auto: false,
+            minSlides: 2,
+            maxSlides: 2,
+            slideWidth: 210,
+            moveSlides: 2,
+            pager: true,
+            controls: false
         });
-    </sctipt>
+    </script>
 </body>
 </html>

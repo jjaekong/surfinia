@@ -3,44 +3,60 @@
     overflow: hidden;
 }
 .new.product-list .container .product header > p {
-    max-width: 660px;
-    max-height: 400px;
+    width: 660px;
+    height: 360px;
     float: left;
     margin-right: 30px;
 }
 .new.product-list .container .product header > p > a > img {
     width: 660px;
-    height: 400px;
+    height: 360px;
 }
 .new.product-list .container .product header .best-list {
+    position: relative;
     width: 480px;
-    height: 400px;
+    height: 360px;
     padding: 20px;
     float: left;
     background-color: #f6f6f6;
 }
-.new.product-list .container .product header .best-list > .best {
+.new.product-list .container .product header .best-list > .bx-wrapper {
+    max-width: 440px !important;
+}
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > .hover-text > h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > .hover-text > p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best {
     overflow: hidden;
 }
-.new.product-list .container .product header .best-list > .best > li {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li {
     position: relative;
     float: left;
-    margin-right: 16px;
+    margin-right: 20px;
     vertical-align: top;
 }
-.new.product-list .container .product header .best-list > .best > li:last-child {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li:last-child {
     margin-right: 0;
 }
-.new.product-list .container .product header .best-list > .best > li > a {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a {
     position: relative;
     display: block;
     text-decoration: none;
 }
-.new.product-list .container .product header .best-list > .best > li > a > p > img {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > p > img {
     width: 210px;
     height: 275px;
 }
-.new.product-list .container .product header .best-list > .best > li > a > .hover-text {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > .hover-text {
     display: none;
     position: absolute;
     top: 0;
@@ -52,47 +68,38 @@
     z-index: 1;
     text-align: center;
 }
-.new.product-list .container .product header .best-list > .best > li > a:hover > .hover-text {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a:hover > .hover-text {
     display: block;
 }
-.new.product-list .container .product header .best-list > .best > li > a > .hover-text > hr {
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > .hover-text > hr {
     display: inline-block;
     width: 45px;
     border-bottom: 1px solid #fff;
     margin: 116px 0 15px 0;
-
 }
-
-.new.product-list .container .product header .best-list > .best > li > a > .hover-text > h4 {
-    font-size: 13px;
-    font-weight: 400;
-    margin: 0;
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-controls > .bx-pager {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
     text-align: center;
+}
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-controls > .bx-pager > .bx-pager-item {
+    display: inline-block;
+}
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-controls > .bx-pager > .bx-pager-item > a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #c5c5c5;
+    border-radius: 50%;
+    text-indent: -999em;
+    margin: 0 1px;
 
 }
-.new.product-list .container .product header .best-list > .best > li > a > .hover-text > p {
-    font-size: 13px;
-    font-weight: 400;
-    margin-top: 5px;
+.new.product-list .container .product header .best-list > .bx-wrapper > .bx-controls > .bx-pager > .bx-pager-item a.active {
+	background-color: #6b6b6b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .new.product-list .container .product > .menu-list {
     padding-top: 80px;
     clear: both;
@@ -165,10 +172,6 @@
 .new.product-list .container .product .pagination {
     margin-top: 23px !important;
 }
-
-
-
-
 
 
 
