@@ -228,6 +228,11 @@
     border-radius: 0;
     padding: 6px 10px;
 }
+#content .container .pagination li.active a {
+    background-color: #99cccc;
+    border-color: #99cccc;
+    color: #fff;
+}
 #content .container .lable-wrap {
     margin-top: 5px;
 }
