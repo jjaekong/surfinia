@@ -10,7 +10,7 @@
             <article class="product">
                 <header>
                     <p>
-                        <a href="#"><img src="/assets/images/new/product_img01.jpg" alt=""></a>
+                        <img src="/assets/images/new/product_img01.jpg" alt="">
                     </p>
                     <div class="best-list">
                         <ul class="best">
