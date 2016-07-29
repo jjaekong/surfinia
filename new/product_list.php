@@ -21,7 +21,7 @@
                                     </p>
                                     <div class="hover-text">
                                         <hr>
-                                        <h4>샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템</h4>
+                                        <h4>01샘플아이템</h4>
                                         <p>50,000 won</p>
                                     </div>
                                 </a>
@@ -107,7 +107,7 @@
                                 <p>
                                     <img src="/assets/images/new/product_list01.jpg" alt="">
                                 </p>
-                                <h4>샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01 샘플아이템 01</h4>
+                                <h4>01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 01샘플아이템 </h4>
                                 <p class="place">40,000 won</p>
                                 <p class="lable-wrap">
                                     <span class="lable label-default lable-green">BEST</span>

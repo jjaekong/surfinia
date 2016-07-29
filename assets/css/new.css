@@ -164,8 +164,7 @@
     margin: 0;
     padding: 18px 0 4px 0;
     font-weight: 600;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    line-height: 18px;
 }
 .new.product-list .container .product > .article-content > .product-item > li > a > p {
     font-size: 12px;
