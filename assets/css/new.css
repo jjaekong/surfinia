@@ -24,7 +24,10 @@
     max-width: 440px !important;
 }
 .new.product-list .container .product header .best-list > .bx-wrapper > .bx-viewport > .best > li > a > .hover-text > h4 {
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 13px;
+    line-height: 20px;
     font-weight: 400;
     margin: 0;
     text-align: center;
@@ -135,33 +138,34 @@
 .new.product-list .container .product > .article-content > .product-item > li {
     margin: 0 30px 30px 0;
     float: left;
+    width: 270px;
     vertical-align: top;
 }
 .new.product-list .container .product > .article-content > .product-item > li > a > p > img {
     width: 270px;
     height: 320px;
 }
-.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(4) {
+.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(4n) {
     margin-right: 0;
 }
-.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(8) {
-    margin-right: 0;
-}
-.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(12) {
-    margin-right: 0;
-}
-.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(16) {
-    margin-right: 0;
+.new.product-list .container .product > .article-content > .product-item > li:nth-of-type(4n+1) {
+    clear: both;
 }
 .new.product-list .container .product > .article-content > .product-item > li > a {
+    display: block;
+    width: 100%;
     text-decoration: none;
 }
 .new.product-list .container .product > .article-content > .product-item > li > a > h4 {
+    overflow: hidden;
+    width: 100%;
     font-size: 12px;
     color: #666;
     margin: 0;
     padding: 18px 0 4px 0;
     font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .new.product-list .container .product > .article-content > .product-item > li > a > p {
     font-size: 12px;
