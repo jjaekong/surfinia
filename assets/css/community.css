@@ -501,12 +501,47 @@
 }
 
 
-
-
-
-
-
-
+/* confirm-pw */
+.community.confirm-pw .confirm > .section-content {
+    padding: 196px 0 208px;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw {
+    text-align: center;
+    background-image: url(/assets/images/community/lock.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    padding-top: 95px;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #444;
+    padding-bottom: 14px;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > p {
+    font-size: 16px;
+    color: #666;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > form {
+    margin-top: 30px;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > form > input {
+    width: 280px;
+    height: 35px;
+    border: 1px solid #dadada;
+    margin-right: 9px;
+    vertical-align: top;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > form > .btn-area {
+    display: inline-block !important;
+}
+.community.confirm-pw .confirm > .section-content > .lock-pw > form > .btn-area > p > .btn-green {
+    width: 80px !important;
+    height: 35px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 
 
