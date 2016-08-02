@@ -143,7 +143,7 @@
                                 <tr>
                                     <th>이메일</th>
                                     <td>
-                                        <input type="text" id="orderer-mail2" class="mail"> @
+                                        <input type="mail" id="orderer-mail2" class="mail"> @
                                         <label for="orderer-mail2" class="sr-only">이메일주소</label>
                                         <input type="text" id="orderer-mail3" class="mail">
                                         <label for="orderer-mail3" class="sr-only">도메인</label>
@@ -207,18 +207,18 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><label for="orderer-addr1">주소</label></th>
+                                    <th><label for="addressee-1">주소</label></th>
                                     <td>
-                                        <input type="text" id="orderer-addr1" class="address">
+                                        <input type="text" id="addressee-1" class="addressee-1">
                                         <div class="btn-area">
                                             <p>
                                                 <a href="#" class="btn btn-white" role="button">우편번호찾기</a>
                                             </p>
                                         </div>
-                                        <input type="text" id="orderer-addr2" class="addr">
-                                        <label for="orderer-addr2">기본주소</label>
-                                        <input type="text" id="orderer-addr3" class="addr">
-                                        <label for="orderer-addr3">나머지 주소</label>
+                                        <input type="text" id="addressee-2" class="addr">
+                                        <label for="addressee-2">기본주소</label>
+                                        <input type="text" id="addressee-3" class="addr">
+                                        <label for="addressee-3">나머지 주소</label>
                                     </td>
                                 </tr>
                                 <tr>
