@@ -119,34 +119,34 @@
                                 <tr>
                                     <th>일반전화</th>
                                     <td>
-                                        <select id="orderer-tel1">
+                                        <select>
                                             <option value="">02</option>
                                         </select> -
-                                        <input type="text" id="orderer-tel2" class="tel"> -
+                                        <input type="text" id="orderer-tel1" class="tel"> -
+                                        <label for="orderer-tel1" class="sr-only">전화번호</label>
+                                        <input type="text" id="orderer-tel2" class="tel">
                                         <label for="orderer-tel2" class="sr-only">전화번호</label>
-                                        <input type="text" id="orderer-tel3" class="tel">
-                                        <label for="orderer-tel3" class="sr-only">전화번호</label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>휴대전화</th>
                                     <td>
-                                        <select id="orderer-phone">
+                                        <select>
                                             <option value="">010</option>
                                         </select> -
-                                        <input type="text" id="orderer-phone2" class="phone"> -
+                                        <input type="text" id="orderer-phone1" class="phone"> -
+                                        <label for="orderer-phone1" class="sr-only">휴대번호</label>
+                                        <input type="text" id="orderer-phone2" class="phone">
                                         <label for="orderer-phone2" class="sr-only">휴대번호</label>
-                                        <input type="text" id="orderer-phone3" class="phone">
-                                        <label for="orderer-phone3" class="sr-only">휴대번호</label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>이메일</th>
                                     <td>
-                                        <input type="mail" id="orderer-mail2" class="mail"> @
-                                        <label for="orderer-mail2" class="sr-only">이메일주소</label>
-                                        <input type="text" id="orderer-mail3" class="mail">
-                                        <label for="orderer-mail3" class="sr-only">도메인</label>
+                                        <input type="email" id="orderer-mail1" class="mail"> @
+                                        <label for="orderer-mail1" class="sr-only">이메일주소</label>
+                                        <input type="text" id="domain" class="mail">
+                                        <label for="domain" class="sr-only">도메인</label>
                                         <select id="orderer-mail">
                                             <option value="">google.com</option>
                                         </select>
@@ -207,16 +207,16 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><label for="addressee-1">주소</label></th>
+                                    <th><label for="user-addr">주소</label></th>
                                     <td>
-                                        <input type="text" id="addressee-1" class="addressee-1">
+                                        <input type="text" id="user-addr" class="user-addr">
                                         <div class="btn-area">
                                             <p>
                                                 <a href="#" class="btn btn-white" role="button">우편번호찾기</a>
                                             </p>
                                         </div>
-                                        <input type="text" id="addressee-2" class="addr">
-                                        <label for="addressee-2">기본주소</label>
+                                        <input type="text" id="user-addr-2" class="addr">
+                                        <label for="user-addr-2">기본주소</label>
                                         <input type="text" id="addressee-3" class="addr">
                                         <label for="addressee-3">나머지 주소</label>
                                     </td>
@@ -224,25 +224,25 @@
                                 <tr>
                                     <th>일반전화</th>
                                     <td>
-                                        <select id="orderer-tel1">
+                                        <select>
                                             <option value="">02</option>
                                         </select> -
-                                        <input type="text" id="orderer-tel2" class="tel"> -
-                                        <label for="orderer-tel2" class="sr-only">전화번호</label>
-                                        <input type="text" id="orderer-tel3" class="tel">
-                                        <label for="orderer-tel3" class="sr-only">전화번호</label>
+                                        <input type="text" id="tel1" class="tel"> -
+                                        <label for="tel1" class="sr-only">전화번호</label>
+                                        <input type="text" id="tel2" class="tel">
+                                        <label for="tel2" class="sr-only">전화번호</label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>휴대전화</th>
                                     <td>
-                                        <select id="orderer-phone">
+                                        <select>
                                             <option value="">010</option>
                                         </select> -
-                                        <input type="text" id="orderer-phone2" class="phone"> -
-                                        <label for="orderer-phone2" class="sr-only">휴대번호</label>
-                                        <input type="text" id="orderer-phone3" class="phone">
-                                        <label for="orderer-phone3" class="sr-only">휴대번호</label>
+                                        <input type="text" id="phone1" class="phone"> -
+                                        <label for="phone1" class="sr-only">휴대번호</label>
+                                        <input type="text" id="phone2" class="phone">
+                                        <label for="phone2" class="sr-only">휴대번호</label>
                                     </td>
                                 </tr>
                                 <tr>
@@ -254,6 +254,93 @@
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="amount">
+                    <h2>결제예정금액</h2>
+                    <div class="table-wrap">
+                        <table class="table table-border">
+                            <colgroup>
+                                <col style=" width: 390px;">
+                                <col style=" width: 390px;">
+                                <col style=" width: 390px;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>총 주문금액</th>
+                                    <th>총 할인 + 부가결제 금액</th>
+                                    <th>총 결제예정 금액</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>289,000</strong>원</td>
+                                    <td><strong>+0</strong>원</td>
+                                    <td><strong>=289,000</strong>원</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <dl class="inline-dl">
+                            <dt>총 할인금액</dt>
+                            <dd>0원</dd>
+                            <dt>총 부가결제금액</dt>
+                            <dd>0원</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="total-payment">
+                    <h2>결제수단</h2>
+                    <div class="payment-method">
+                        <input type="radio" id="card">
+                        <label for="card">카드결제</label>
+                        <input type="radio" id="escrow">
+                        <label for="escrow">에스크로(실시간 계좌이체)</label>
+                        <input type="radio" id="deposit">
+                        <label for="deposit">무통장 입금</label>
+                        <p>최소 결제 가능 금액은 결제금액에서 배송비를 제외한 금액입니다.</p>
+                        <p>소액 결제의 경우 PG사 정책에 따라 결제 금액 제한이 있을 수 있습니다.</p>
+                    </div>
+                    <div class="total">
+                        <ul>
+                            <li>
+                                <h3>카드 결제 최종결제 금액</h3>
+                                <p class="sum-payment"><strong>289,000</strong>원</p>
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="#" class="btn btn-green" role="button">결제하기</a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <dl class="inline-dl">
+                                    <dt>총 적립예정 금액</dt>
+                                    <dd><strong>0원</strong></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl class="inline-dl">
+                                    <dt>상품별 적립금</dt>
+                                    <dd>0원</dd>
+                                    <dt>회원 적립금</dt>
+                                    <dd>0원</dd>
+                                    <dt>쿠폰 적립금</dt>
+                                    <dd>0원</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>무이자 할부 이용안내</h2>
+                <div class="installment-guide">
+                    무이자할부가 적용되지 않은 상품과 무이자할부가 가능한 상품을 동시에 구매할 경우 전체 주문 상품 금액에 대해 무이자할부가 적용되지 않습니다.<br>
+                    무이자할부를 원하시는 경우 장바구니에서 무이자할부 상품만 선택하여 주문하여 주시기 바랍니다.
+                </div>
+                <h2>이용안내</h2>
+                <div class="guide">
+                    WindowXP 서비스팩2를 설치하신후 결제가 정상적인 단계로 처리되지 않는경우, 아래의 절차에 따라 해결하시기 바랍니다.
+                    <ol>
+                        <li>안심클릭 결제모듈이 설치되지 않은 경우 ActiveX 수동설치</li>
+                        <li>Service Pack 2에 대한 Microsoft사의 상세안내</li>
+                    </ol>
                 </div>
             </section>
         </div>
