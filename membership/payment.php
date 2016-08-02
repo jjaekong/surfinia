@@ -88,8 +88,173 @@
                     <p>상품구매금액 59,000 + 배송비 0 = <strong>59,000원</strong></p>
                     <p>상품의 옵션 및 수량 변경은 상품상세 또는 장바구니에서 가능합니다</p>
                 </div>
-
-
+                <div class="user-info">
+                    <h2>주문자정보</h2>
+                    <div class="table-wrap">
+                        <table class="table table-border">
+                            <colgroup>
+                                <col style=" width: 170px;">
+                                <col style=" width: 1000px;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th><label for="an-orderer">주문하시는 분</label></th>
+                                    <td><input type="text" id="an-orderer" class="an-orderer"></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="orderer-addr1">주소</label></th>
+                                    <td>
+                                        <input type="text" id="orderer-addr1" class="address">
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="#" class="btn btn-white" role="button">우편번호찾기</a>
+                                            </p>
+                                        </div>
+                                        <input type="text" id="orderer-addr2" class="addr">
+                                        <label for="orderer-addr2">기본주소</label>
+                                        <input type="text" id="orderer-addr3" class="addr">
+                                        <label for="orderer-addr3">나머지 주소</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>일반전화</th>
+                                    <td>
+                                        <select id="orderer-tel1">
+                                            <option value="">02</option>
+                                        </select> -
+                                        <input type="text" id="orderer-tel2" class="tel"> -
+                                        <label for="orderer-tel2" class="sr-only">전화번호</label>
+                                        <input type="text" id="orderer-tel3" class="tel">
+                                        <label for="orderer-tel3" class="sr-only">전화번호</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>휴대전화</th>
+                                    <td>
+                                        <select id="orderer-phone">
+                                            <option value="">010</option>
+                                        </select> -
+                                        <input type="text" id="orderer-phone2" class="phone"> -
+                                        <label for="orderer-phone2" class="sr-only">휴대번호</label>
+                                        <input type="text" id="orderer-phone3" class="phone">
+                                        <label for="orderer-phone3" class="sr-only">휴대번호</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>이메일</th>
+                                    <td>
+                                        <input type="text" id="orderer-mail2" class="mail"> @
+                                        <label for="orderer-mail2" class="sr-only">이메일주소</label>
+                                        <input type="text" id="orderer-mail3" class="mail">
+                                        <label for="orderer-mail3" class="sr-only">도메인</label>
+                                        <select id="orderer-mail">
+                                            <option value="">google.com</option>
+                                        </select>
+                                        <p>
+                                            이메일을 통해 주문처리과정을 보내드립니다. <br> 이메일 주소란에는 반드시 수신가능한 이메일주소를 입력해 주세요.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="orderer-pw">주문조회 비밀번호</label></th>
+                                    <td>
+                                        <input type="password" id="orderer-pw" class="pw">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="confirm-pw">주문조회 비밀번호 확인</label></th>
+                                    <td>
+                                        <input type="password" id="confirm-pw" class="pw">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>비회원 구매 및 결제<br>개인정보취급방침</th>
+                                    <td>
+                                        <p>비회원 구매 및 결제 개인정보취급방침에 대하여 동의합니다.</p>
+                                        <input type="radio" id="consent" class="radio">
+                                        <label for="consent">동의함</label>
+                                        <input type="radio" id="not-consent" class="radio">
+                                        <label for="not-consent">동의안함</label>
+                                        <textarea id="privacy"></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="addr-info">
+                    <h2>배송지정보</h2>
+                    <div class="table-wrap">
+                        <table class="table table-border">
+                            <colgroup>
+                                <col style=" width: 170px;">
+                                <col style=" width: 1000px;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>배송지 선택</th>
+                                    <td>
+                                        <input type="radio" id="same" class="radio">
+                                        <label for="same">주문자 정보와 동일</label>
+                                        <input type="radio" id="new-addr" class="radio">
+                                        <label for="new-addr">새로운배송지</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="addressee">받으시는 분</label></th>
+                                    <td>
+                                        <input type="text" id="addressee" class="addressee">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="orderer-addr1">주소</label></th>
+                                    <td>
+                                        <input type="text" id="orderer-addr1" class="address">
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="#" class="btn btn-white" role="button">우편번호찾기</a>
+                                            </p>
+                                        </div>
+                                        <input type="text" id="orderer-addr2" class="addr">
+                                        <label for="orderer-addr2">기본주소</label>
+                                        <input type="text" id="orderer-addr3" class="addr">
+                                        <label for="orderer-addr3">나머지 주소</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>일반전화</th>
+                                    <td>
+                                        <select id="orderer-tel1">
+                                            <option value="">02</option>
+                                        </select> -
+                                        <input type="text" id="orderer-tel2" class="tel"> -
+                                        <label for="orderer-tel2" class="sr-only">전화번호</label>
+                                        <input type="text" id="orderer-tel3" class="tel">
+                                        <label for="orderer-tel3" class="sr-only">전화번호</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>휴대전화</th>
+                                    <td>
+                                        <select id="orderer-phone">
+                                            <option value="">010</option>
+                                        </select> -
+                                        <input type="text" id="orderer-phone2" class="phone"> -
+                                        <label for="orderer-phone2" class="sr-only">휴대번호</label>
+                                        <input type="text" id="orderer-phone3" class="phone">
+                                        <label for="orderer-phone3" class="sr-only">휴대번호</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>배송메세지</th>
+                                    <td>
+                                        <textarea id="message"></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
