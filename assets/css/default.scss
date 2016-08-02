@@ -6,6 +6,7 @@ html {
     min-width: 1200px;
 }
 body {
+    position: relative;
     min-width: 1200px;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 12px;
@@ -135,6 +136,138 @@ a {
 
 #content {
 
+}
+
+#quick {
+    position: absolute;
+    top: 712px;
+    left: 50%;
+    margin-left: 615px;
+    width: 77px;
+    height: 414px;
+    //background-color: blue;
+    .benefit {
+        margin-bottom: 3px;
+        width: 100%;
+        height: 92px;
+        a {
+            display: block;
+            padding-top: 48px;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #dcdcdc;
+            color: #333;
+            font-size: 10px;
+            letter-spacing: -1px;
+            line-height: 12px;
+            text-align: center;
+            background-image: url(/assets/images/ico_people.png);
+            background-repeat: no-repeat;
+            background-position: 50% 8px;
+        }
+    }
+    .bookmark,
+    .wishlist,
+    .cart,
+    .qna {
+        margin-bottom: 3px;
+        a {
+            display: block;
+            width: 100%;
+            height: 27px;
+            border: 1px solid #dcdcdc;
+            line-height: 25px;
+            font-size: 11px;
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            text-align: center;
+            font-weight: normal;
+            &:focus,
+            &:hover {
+                background-color: #333;
+                border-color: #333;
+                color: #fff;
+            }
+        }
+    }
+    .recent {
+        width: 100%;
+        height: 180px;
+        border: 1px solid #dcdcdc;
+        h5 {
+            margin-top: 10px;
+            font-size: 10px;
+            color: #333;
+            text-align: center;
+            letter-spacing: -1px;
+            word-spacing: -1px;
+        }
+        .bx-wrapper {
+            position: relative;
+            top: 5px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width: 55px;
+            .bx-viewport {
+                ul {
+                    li {
+                        a {
+                            display: block;
+                            border: 1px solid #dcdcdc;
+                            img {
+                                display: block;
+                            }
+                            &:hover,
+                            &:focus {
+                                border: 1px solid #000;
+                            }
+                        }
+                    }
+                }
+            }
+            .bx-controls {
+                .bx-controls-direction {
+                    .bx-prev,
+                    .bx-next {
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 15px;
+                        line-height: 15px;
+                        text-align: center;
+                        font-size: 10px;
+                        color: #333;
+                    }
+                    .bx-prev {
+                        top: 0;
+                    }
+                    .bx-next {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .top {
+        width: 100%;
+        height: 16px;
+        a {
+            display: block;
+            margin-top: 3px;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            line-height: 16px;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            &:focus,
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
 }
 
 #footer {

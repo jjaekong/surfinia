@@ -10,6 +10,7 @@ html {
   min-width: 1200px; }
 
 body {
+  position: relative;
   min-width: 1200px;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 12px;
@@ -111,6 +112,115 @@ a {
         #gnb ul li a.active, #gnb ul li a:hover, #gnb ul li a:focus {
           background-color: #000;
           color: #fff; }
+
+#quick {
+  position: absolute;
+  top: 712px;
+  left: 50%;
+  margin-left: 615px;
+  width: 77px;
+  height: 414px; }
+  #quick .benefit {
+    margin-bottom: 3px;
+    width: 100%;
+    height: 92px; }
+    #quick .benefit a {
+      display: block;
+      padding-top: 48px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #dcdcdc;
+      color: #333;
+      font-size: 10px;
+      letter-spacing: -1px;
+      line-height: 12px;
+      text-align: center;
+      background-image: url(/assets/images/ico_people.png);
+      background-repeat: no-repeat;
+      background-position: 50% 8px; }
+  #quick .bookmark,
+  #quick .wishlist,
+  #quick .cart,
+  #quick .qna {
+    margin-bottom: 3px; }
+    #quick .bookmark a,
+    #quick .wishlist a,
+    #quick .cart a,
+    #quick .qna a {
+      display: block;
+      width: 100%;
+      height: 27px;
+      border: 1px solid #dcdcdc;
+      line-height: 25px;
+      font-size: 11px;
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none;
+      text-align: center;
+      font-weight: normal; }
+      #quick .bookmark a:focus, #quick .bookmark a:hover,
+      #quick .wishlist a:focus,
+      #quick .wishlist a:hover,
+      #quick .cart a:focus,
+      #quick .cart a:hover,
+      #quick .qna a:focus,
+      #quick .qna a:hover {
+        background-color: #333;
+        border-color: #333;
+        color: #fff; }
+  #quick .recent {
+    width: 100%;
+    height: 180px;
+    border: 1px solid #dcdcdc; }
+    #quick .recent h5 {
+      margin-top: 10px;
+      font-size: 10px;
+      color: #333;
+      text-align: center;
+      letter-spacing: -1px;
+      word-spacing: -1px; }
+    #quick .recent .bx-wrapper {
+      position: relative;
+      top: 5px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      width: 55px; }
+      #quick .recent .bx-wrapper .bx-viewport ul li a {
+        display: block;
+        border: 1px solid #dcdcdc; }
+        #quick .recent .bx-wrapper .bx-viewport ul li a img {
+          display: block; }
+        #quick .recent .bx-wrapper .bx-viewport ul li a:hover, #quick .recent .bx-wrapper .bx-viewport ul li a:focus {
+          border: 1px solid #000; }
+      #quick .recent .bx-wrapper .bx-controls .bx-controls-direction .bx-prev,
+      #quick .recent .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 15px;
+        line-height: 15px;
+        text-align: center;
+        font-size: 10px;
+        color: #333; }
+      #quick .recent .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {
+        top: 0; }
+      #quick .recent .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
+        bottom: 0; }
+  #quick .top {
+    width: 100%;
+    height: 16px; }
+    #quick .top a {
+      display: block;
+      margin-top: 3px;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+      line-height: 16px;
+      text-align: center;
+      color: #fff;
+      text-decoration: none; }
+      #quick .top a:focus, #quick .top a:hover {
+        opacity: .8; }
 
 #footer .help {
   border-top: 1px solid #ddd;
