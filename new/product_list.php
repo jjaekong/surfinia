@@ -337,11 +337,11 @@
             </article>
         </div>
     </main>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/quick.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript"  src="/assets/js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript">
+    <script src="/assets/js/quick.js"></script>
+    <script>
         $('.best-list .best').bxSlider({
             auto: false,
             minSlides: 2,
