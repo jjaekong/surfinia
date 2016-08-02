@@ -596,11 +596,84 @@
     height: 50px !important;
 }
 
+/* non-inquiry */
+.member.non-inquiry .member-login > .section-content > .login-form {
+    padding-top: 53px !important;
+    margin-bottom: 50px;
+}
+.member.non-inquiry .member-login > .section-content > .login-form > h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding-bottom: 42px;
+}
 
 
 
 
 
+
+.member.non-inquiry .member-login > .section-content > .nonmember-form {
+    width: 570px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 60px 85px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form {
+    padding-top: 53px !important;
+    margin-bottom: 50px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding-bottom: 42px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group {
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group > label {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    width: 78px;
+    padding-top: 5px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group > input {
+    float: left;
+    width: 322px;
+    height: 30px;
+    border: 1px solid #dadada;
+    border-radius: 0;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group > .inquiry {
+    width: 155px;
+    height: 30px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .btn-area {
+    margin: 20px 0 27px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .btn-area > p > .btn {
+    width: 400px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    padding: 15px 15px !important;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group:nth-of-type(2) {
+    position: relative;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group:nth-of-type(2) > span {
+    position: absolute;
+    top: 6px;
+    left: 237px;
+}
+.member.non-inquiry .member-login > .section-content > .nonmember-form > .form-group:nth-of-type(2) > .inquiry:nth-of-type(1) {
+    margin-right: 12px;
+}
 
 
 

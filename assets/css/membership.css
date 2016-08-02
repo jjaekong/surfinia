@@ -909,7 +909,7 @@
     content: "]";
 }
 .membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(5) {
-    padding: 0 10px !important;
+    padding: 0 11px !important;
     vertical-align: middle !important;
 }
 .membership.bascat .bascat-info > .table-wrap > .table > tbody > tr > td:nth-of-type(5) > .btn-area > p > .btn  {
@@ -1020,31 +1020,819 @@
 }
 
 
+/* payment */
+.membership.payment .bascat-info > .table-wrap > p:first-child {
+    border-bottom: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .table-wrap > p:last-child {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    padding: 20px 20px;
+    margin-bottom: 83px;
+    background-color: #fff;
+    background-image: url(/assets/images/membership/mark_img01.png);
+    background-repeat: no-repeat;
+    background-position: 10px 24px;
+}
+.membership.payment .bascat-info > .user-info > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.membership.payment .bascat-info > .user-info > .table-wrap > .table-border {
+    border-top: 1px solid #333 !important;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    padding: 14px 25px;
+    border-top: 0;
+    border-bottom: 1px solid #dadada;
+    background-color: #f9f9f9;
+    vertical-align: top;
+    letter-spacing: -1px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .an-orderer {
+    width: 210px;
+    height: 30px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > th:after {
+    content: "*";
+    color: #dc1c1c;
+    padding-left: 5px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td {
+    padding: 8px !important;
+    text-align: left !important;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > input {
+    height: 30px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:nth-of-type(2) > td {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .address {
+    float: left;
+    width: 70px;
+    margin-right: 3px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .addr {;
+    width: 564px;
+    margin: 4px 5px 0 0;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:nth-of-type(2) > td > label {
+    color: #666 ;
+    font-size: 11px ;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .btn-area {
+    vertical-align: top;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .btn-area > p > .btn-white {
+    width: 80px !important;
+    height: 30px !important;
+    padding: 7px 0 !important;
+    font-size: 11px !important;
+    border-color: #dadada !important;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:nth-of-type(3) > th:after {
+    content: "";
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > select {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .tel {
+    width: 80px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .phone {
+    width: 80px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .mail {
+    width: 153px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:nth-of-type(5) > td > select {
+    width: 100px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:nth-of-type(5) > td > p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .pw {
+    width: 210px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > .radio {
+    width: 15px;
+    height: 15px;
+    margin: -2px 3px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr > td > textarea {
+    width: 984px;
+    height: 70px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:last-child > th:after {
+    content: "";
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:last-child > td > p {
+    font-size: 12px;
+    display: inline-block;
+    color: #333;
+    line-height: 45px;
+    margin-right: 5px;
+}
+.membership.payment .bascat-info > .user-info > .table-wrap > .table > tbody > tr:last-child > td > label {
+    margin-right: 10px;
+    color: #666;
+}
+.membership.payment .bascat-info > .addr-info > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > th:after {
+    content: "*";
+    color: #dc1c1c;
+    padding-left: 5px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table-border {
+    border-top: 1px solid #333 !important;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    padding: 14px 25px;
+    border-top: 0;
+    border-bottom: 1px solid #dadada;
+    background-color: #f9f9f9;
+    vertical-align: top;
+    letter-spacing: -1px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .an-orderer {
+    width: 210px;
+    height: 30px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > th:after {
+    content: "*";
+    color: #dc1c1c;
+    padding-left: 5px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td {
+    padding: 8px !important;
+    text-align: left !important;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > input {
+    height: 30px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .radio {
+    width: 15px;
+    height: 15px;
+    margin: 0 3px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:nth-of-type(1) > td > label {
+    margin: 5px 10px 0 0;
+    color: #666;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:nth-of-type(1) > th:after {
+    content: "";
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:nth-of-type(4) > th:after {
+    content: "";
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:last-child> th:after {
+    content: "";
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .addressee {
+    width: 210px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:nth-of-type(2) > td {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .user-addr {
+    float: left;
+    width: 70px;
+    margin-right: 3px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .addr {;
+    width: 564px;
+    margin: 4px 5px 0 0;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr:nth-of-type(3) > td > label {
+    color: #666 ;
+    font-size: 11px ;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .btn-area {
+    vertical-align: top;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .btn-area > p > .btn-white {
+    width: 80px !important;
+    height: 30px !important;
+    padding: 7px 0 !important;
+    font-size: 11px !important;
+    border-color: #dadada !important;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > select {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .tel {
+    width: 80px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > .phone {
+    width: 80px;
+}
+.membership.payment .bascat-info > .addr-info > .table-wrap > .table > tbody > tr > td > textarea {
+    width: 984px;
+    height: 70px;
+    border: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .amount > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.payment .bascat-info > .amount > .table-wrap {
+    border-top: 1px solid #333;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .table {
+    border-top: 0 !important;
+    margin-bottom: 0;
+    border-bottom: 1px solid #333;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .table > thead > tr  > th {
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    color: #555 !importan;
+    padding: 16px 0 !important;
+    text-align: center !important;
+    border-right: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .table > thead > tr  > th:last-child {
+    border-right: 0;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .table > tbody > tr  > td {
+    font-size: 20px !important;
+    color: #555 !important;
+    text-align: center !important;
+    padding: 27px 0 !important;
+    border-right: 1px solid #dadada;
+    border-bottom: 0 !important;
+
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .table > tbody > tr  > td:last-child {
+    border-right: 0;
+    color: #d41010 !important;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .inline-dl {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .inline-dl > dt {
+    float: left;
+    clear: both;
+    width: 185px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #555;
+    padding: 16px 0 16px 25px;
+    text-align: left;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .amount > .table-wrap > .inline-dl > dd {
+    float: left;
+    width: 985px;
+    font-size: 13px;
+    color: #555;
+    font-weight: 800;
+    padding: 16px 0 16px 25px;
+    text-align: left;
+    border-bottom: 1px solid #dadada;
+}
+
+
+.membership.payment .bascat-info > .total-payment {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .total-payment > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.payment .bascat-info > .total-payment > div {
+    float: left;
+    border-top: 1px solid #858585;
+    border-bottom: 1px solid #858585;
+}
+.membership.payment .bascat-info > .total-payment > .payment-method {
+    width: 840px;
+    height: 300px;
+    padding: 20px 0 0 8px;
+    border-right: 1px solid #858585;
+}
+.membership.payment .bascat-info > .total-payment > .payment-method > input {
+    margin: -2px 3px 0 0;
+    vertical-align: middle;
+}
+.membership.payment .bascat-info > .total-payment > .payment-method > label {
+    margin-right: 50px;
+}
+.membership.payment .bascat-info > .total-payment > .payment-method > p:nth-of-type(1) {
+    margin-top: 43px;
+}
+.membership.payment .bascat-info > .total-payment > .payment-method > p {
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    padding-left: 10px;
+    background-image: url(/assets/images/membership/mark_img01.png);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+}
+
+.membership.payment .bascat-info > .total-payment > .total {
+    width: 330px;
+    height: 300px;
+    background-color: #fafafa;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li {
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(1) {
+    padding: 17px 20px 18px;
+    text-align: right;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(1) > h3 {
+    font-size: 13px;
+    color: #555;
+    line-height: 22px;
+    font-weight: 800;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(1) > .sum-payment{
+    font-size: 25px;
+    color: #d41010;
+    padding: 16px 0;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(1) > .btn-area > p > .btn-green {
+    width: 290px !important;
+    height: 50px !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    padding: 14px 15px !important;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(2) {
+    padding: 13px 20px;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(2) > .inline-dl {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(2) > .inline-dl > dt {
+    float: left;
+    font-size: 13px;
+    font-weight: 800;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(2) > .inline-dl > dd {
+    float: right;
+    font-size: 13px;
+    font-weight: 800;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(3) {
+    padding: 15px 20px;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(3) > .inline-dl {
+    overflow: hidden;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(3) > .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.membership.payment .bascat-info > .total-payment > .total > ul > li:nth-of-type(3) > .inline-dl > dd {
+    float: right;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.membership.payment .bascat-info > .installment-guide {
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    border: 1px solid #dadada;
+    padding: 25px 22px;
+}
+.membership.payment .bascat-info > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+
+.membership.payment .bascat-info > .guide {
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    border: 1px solid #dadada;
+    padding: 25px 22px;
+}
+.membership.payment .bascat-info > .guide > ol {
+    list-style: decimal;
+    list-style-position: inside;
+    margin-top: 15px;
+}
+.membership.payment .bascat-info > .guide > ol > li {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
 
 
 
+/* conclude */
+.membership.conclude .bascat-info > .benefit {
+    overflow: hidden;
+    padding: 14px 0;
+    margin-top: 28px;
+    border: 5px solid #ededed;
+}
+.membership.conclude .bascat-info > .benefit > h5 {
+    float: left;
+    width: 165px;
+    padding: 18px 0 ;
+    font-size: 13px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid #dadada;
+}
+.membership.conclude .bascat-info > .benefit > ul {
+    float: left;
+    padding-left: 22px;
+}
+.membership.conclude .bascat-info > .benefit > ul > li {
+    width: 973px;
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+}
+.membership.conclude .bascat-info > .benefit > ul > li:nth-of-type(1) {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dadada;
+}
 
+.membership.conclude .bascat-info > .benefit > ul > li:nth-of-type(2) {
+    padding-top: 5px;
+}
+.membership.conclude .bascat-info > .benefit > ul > li > .inline-dl > dt {
+    display: inline-block;
+    font-weight: 300;
+}
+.membership.conclude .bascat-info > .benefit > ul > li > .inline-dl > dt:after {
+    content: ":";
+}
+.membership.conclude .bascat-info > .benefit > ul > li > .inline-dl > dd {
+    display: inline-block;
+    margin-right: 50px;
+}
+.membership.conclude .bascat-info > .success {
+    margin: 84px auto 75px;
+    width: 490px;
+    clear: both;
+}
+.membership.conclude .bascat-info > .success > h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #43403e;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 66px;
+    margin: 0 37px 0 0;
+    background-image: url(/assets/images/membership/success_img.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+.membership.conclude .bascat-info > .success > h2 > small {
+    font-size: 13px;
+    color: #555;
+    line-height: 22px;
+}
+.membership.conclude .bascat-info > .success > .order-number {
+    width: 480px;
+    padding: 24px 0 24px 140px;
+    border: 1px solid #e9e9e9;
+    background-color: #f8f8f8;
+    margin-top: 37px;
+}
+.membership.conclude .bascat-info > .success > .order-number > .inline-dl {
+    overflow: hidden;
+}
+.membership.conclude .bascat-info > .success > .order-number > .inline-dl > dt {
+    width: 64px;
+    float: left;
+    clear: both;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 800;
+}
+.membership.conclude .bascat-info > .success > .order-number > .inline-dl > dd {
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+}
+.membership.conclude .bascat-info > .payment-info > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr:nth-of-type(1) > th {
+    border-top: 1px solid #333;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    font-weight: 700;
+    padding: 18px 0 18px 25px;
+    border-bottom: 1px solid #dadada;
+    background-color: #fafafa;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td {
+    padding: 16px 18px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr:nth-of-type(1) > td {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    color: #c7191e !important;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    line-height: 20px;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .inline-dl > dt {
+    display: inline-block;
+    font-weight: 700;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .inline-dl > dt:after {
+    content: ":";
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .inline-dl > dd {
+    display: inline-block;
+    font-weight: 700;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .inline-dl > dd:after {
+    content: ",";
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .inline-dl > dd:last-child:after {
+    content: "";
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr:nth-of-type(2) > td {
+    position: relative;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .btn-area {
+    position: absolute;
+    top: 29px;
+    left: 442px;
+}
+.membership.conclude .bascat-info > .payment-info > .table-wrap > .table > tbody > tr > td > .btn-area > p > .btn-white {
+    width: 125px !important;
+    height: 30px !important;
+    border-color: #dadada !important;
+    font-size: 11px !important;
+    padding: 7px 8px 7px 0 !important;
+    background-image: url(/assets/images/membership/arrow_bg.png);
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+}
+.membership.conclude .bascat-info > .product-info > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap {
+    border-top: 1px solid #333;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table {
+    border-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table {
+    border-top: 0 !important;
+    margin-bottom: 15px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > thead > tr > th {
+    border-right: 1px solid #dadada;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > thead > tr > th:last-child {
+    border-right: 0;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td {
+    border-right: 1px solid #dadada;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:last-child {
+    border-right: 0;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td > a > img {
+    width: 85px;
+    height: 105px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td {
+    vertical-align: middle;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(1) {
+    padding: 7px !important;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) {
+    vertical-align: top !important;
+    padding-top: 18px !important;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl {
+    margin-top: 5px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl > dt {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl > dt:before {
+    content: "[";
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl > dd {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl > dd:before {
+    content: ":";
+    padding-right: 3px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > .table > tbody > tr > td:nth-of-type(2) > .inline-dl > dd:after {
+    content: "]";
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > p {
+    position: relative;
+    width: 1170px;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1px solid #dadada;
+    padding: 20px 5px;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > p > span {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-weight: 300;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > p > strong {
+    font-size: 18px;
+    color: #3a3a3a;
+    font-weight: 700;
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > p > span:before {
+    content: "[";
+}
+.membership.conclude .bascat-info > .product-info > .table-wrap > p > span:after {
+    content: "]";
+}
+.membership.conclude .bascat-info > .amount > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .amount > .table-wrap > .table > tbody > tr:nth-of-type(1) > th {
+    border-top: 1px solid #333;
+}
+.membership.conclude .bascat-info > .amount > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    font-weight: 700;
+    padding: 18px 0 18px 25px;
+    border-bottom: 1px solid #dadada;
+    background-color: #fafafa;
+}
+.membership.conclude .bascat-info > .amount > .table-wrap > .table > tbody > tr > td {
+    padding: 16px 18px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+}
+.membership.conclude .bascat-info > .saved-money > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .saved-money > .table-wrap > .table > tbody > tr:nth-of-type(1) > th {
+    border-top: 1px solid #333;
+}
+.membership.conclude .bascat-info > .saved-money > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    font-weight: 700;
+    padding: 18px 0 18px 25px;
+    border-bottom: 1px solid #dadada;
+    background-color: #fafafa;
+}
+.membership.conclude .bascat-info > .saved-money > .table-wrap > .table > tbody > tr > td {
+    padding: 16px 18px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+}
+.membership.conclude .bascat-info > .address-info > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .table {
+    margin: 0;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .table > tbody > tr:nth-of-type(1) > th {
+    border-top: 1px solid #333;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    font-weight: 700;
+    padding: 18px 0 18px 25px;
+    border-bottom: 1px solid #dadada;
+    background-color: #fafafa;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .table > tbody > tr > td {
+    padding: 16px 18px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.membership.conclude .bascat-info > .address-info > .table-wrap > .btn-area {
+    margin-top: 50px;
+    text-align: center;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .btn-area > p > .btn {
+    display: inline-block !important;
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 13px !important;
+    margin: 0 !important;
+}
+.membership.conclude .bascat-info > .address-info > .table-wrap > .btn-area > p > .btn-green {
+    margin: 0 7px 0 0 !important;
+}
+.membership.conclude .bascat-info > .guide > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+}
+.membership.conclude .bascat-info > .guide > div {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    padding: 24px;
+    border: 1px solid #dadada;
+}
 
 
 

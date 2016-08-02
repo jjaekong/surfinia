@@ -121,6 +121,8 @@
     font-size: 12px;
     padding: 16px 15px;
     font-weight: 600;
+}
+#content .container .btn-area .btn:hover {
     opacity: 0.8;
 }
 #content .container .btn-area .btn-green {
@@ -131,7 +133,6 @@
     border-radius: 0;
     display: block;
     margin-bottom: 8px;
-    opacity: 0.8;
 }
 #content .container .btn-area .btn-white {
     background-color: #fff;
@@ -139,7 +140,6 @@
     color: #222;
     border-radius: 0;
     margin-right: 7px;
-    opacity: 0.8;
 }
 #content .container .btn-area .btn-white:last-child {
     margin-right: 0;
