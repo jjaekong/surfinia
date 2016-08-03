@@ -4,18 +4,19 @@ $('#quick .recent ul').bxSlider({
     minSlides: 2,
     pager: false,
     slideMargin: 10,
-    nextText: '<span class="glyphicon glyphicon-triangle-bottom"></span>',
-    prevText: '<span class="glyphicon glyphicon-triangle-top"></span>'
+    nextText: '<img src="/assets/images/caret_down.gif" alt="다음">',
+    prevText: '<img src="/assets/images/caret_up.gif" alt="이전">'
 });
 
 $(window).on('scroll', function() {
-    if ($(this).scrollTop() >= 712) {
+    var scrollTop = (typeof quickTop === "undefined") ? 712 : quickTop;
+    if ($(this).scrollTop() >= scrollTop) {
         $('#quick').stop().animate({
             top: $(this).scrollTop() + 30
         }, 'slow');
     } else {
         $('#quick').stop().animate({
-            top: 712
+            top: scrollTop
         }, 'slow');
     }
 });
