@@ -9,14 +9,13 @@ $('#quick .recent ul').bxSlider({
 });
 
 $(window).on('scroll', function() {
-    var scrollTop = (typeof quickTop === "undefined") ? 712 : quickTop;
-    if ($(this).scrollTop() >= scrollTop) {
+    if ($(this).scrollTop() >= 712) {
         $('#quick').stop().animate({
             top: $(this).scrollTop() + 30
         }, 'slow');
     } else {
         $('#quick').stop().animate({
-            top: scrollTop
+            top: 712
         }, 'slow');
     }
 });
