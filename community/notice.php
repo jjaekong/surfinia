@@ -7,6 +7,15 @@
     <main id="content" tabindex="-1" class="community notice">
         <div class="container">
             <section class="notice-list">
+                <nav class="sub-menu">
+                    <ul>
+                        <li class="notice active"><a href="/community/notice.php">NOTICE</a></li>
+                        <li class="qna"><a href="/community/qna.php">Q&amp;A</a></li>
+                        <li class="review"><a href="/community/review_list.php">REVIEW</a></li>
+                        <li class="event"><a href="/community/event.php">EVENT</a></li>
+                        <li class="sponsorship"><a href="#">SPONSORSHIP</a></li>
+                    </ul>
+                </nav>
                 <div class="section-header">
                     <h1>공지사항</h1>
                 </div>

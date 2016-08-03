@@ -389,8 +389,11 @@
 .new.detail-page .detail > .appraisal > .review > nav {
     padding-top: 50px;
 }
+
+
 .new.detail-page .detail > .appraisal > .qna {
     overflow: hidden;
+    padding-bottom: 118px;
 }
 .new.detail-page .detail > .appraisal > .qna > .table-wrap {
     margin-top: 41px;
@@ -415,3 +418,119 @@
 .new.detail-page .detail > .appraisal > .qna > nav {
     padding-top: 50px;
 }
+
+.new.detail-page .detail > .appraisal > .guide {
+    padding-bottom: 118px;
+}
+
+.new.detail-page .detail > .appraisal > .guide > h2 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    margin: 50px 0 20px;
+}
+.new.detail-page .detail > .appraisal > .guide > h2:nth-of-type(1) {
+    margin-top: 40px;
+}
+.new.detail-page .detail > .appraisal > .guide > .inline-dl {
+    overflow: hidden;
+}
+.new.detail-page .detail > .appraisal > .guide > .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 12px;
+    color: #666;
+    font-weight: 300;
+    line-height: 20px;
+}
+.new.detail-page .detail > .appraisal > .guide > .inline-dl > dt:after {
+    content: ":";
+    padding: 0 3px;
+}
+.new.detail-page .detail > .appraisal > .guide > .inline-dl > dd {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+.new.detail-page .detail > .appraisal > .guide > ul > li {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    padding-left: 10px;
+}
+.new.detail-page .detail > .appraisal > .guide > ul > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "-";
+}
+.new.detail-page .detail > .appraisal > .guide > .table-wrap > .table > tbody > tr > th {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    vertical-align: top;
+    padding: 22px 0 22px 24px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dadada;
+}
+.new.detail-page .detail > .appraisal > .guide > .table-wrap > .table > tbody > tr > td {
+    font-size: 12px !important;
+    color: #666 !important;
+    line-height: 20px;
+    text-align: left !important;
+    padding: 19px 17px !important;
+}
+.new.detail-page .detail > .appraisal > .guide > p {
+     font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+
+.new.detail-page .detail > .appraisal > .exchange {
+    padding-bottom: 100px;
+}
+.new.detail-page .detail > .appraisal > .exchange > p {
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -91,6 +91,8 @@
                             <li><a href="#">RECOMMEND ITEMS</a></li>
                             <li><a href="#">REVIEW</a></li>
                             <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                            <li><a href="#">EXCHANGE</a></li>
                         </ul>
                     </div>
                     <div class="recommend-items">
@@ -99,6 +101,8 @@
                             <li class="active"><a href="#">RECOMMEND ITEMS</a></li>
                             <li><a href="#">REVIEW</a></li>
                             <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                            <li><a href="#">EXCHANGE</a></li>
                         </ul>
                         <ul class="product-list">
                             <li>
@@ -234,6 +238,8 @@
                             <li><a href="#">RECOMMEND ITEMS</a></li>
                             <li class="active"><a href="#">REVIEW</a></li>
                             <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                            <li><a href="#">EXCHANGE</a></li>
                         </ul>
                         <div class="table-wrap">
                             <table class="table table-border">
@@ -307,6 +313,8 @@
                             <li><a href="#">RECOMMEND ITEMS</a></li>
                             <li><a href="#">REVIEW</a></li>
                             <li class="active"><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                            <li><a href="#">EXCHANGE</a></li>
                         </ul>
                         <div class="table-wrap">
                             <table class="table table-border">
@@ -364,6 +372,99 @@
                                 </li>
                             </ul>
                         </nav>
+                    </div>
+                    <div class="guide">
+                        <ul class="menu-list">
+                            <li><a href="#">DETAIL INFO</a></li>
+                            <li><a href="#">RECOMMEND ITEMS</a></li>
+                            <li><a href="#">REVIEW</a></li>
+                            <li><a href="#">Q&amp;A</a></li>
+                            <li class="active"><a href="#">GUIDE</a></li>
+                            <li><a href="#">EXCHANGE</a></li>
+                        </ul>
+                        <h2>배송정보</h2>
+                        <dl class="inline-dl">
+                            <dt>배송 방법</dt>
+                            <dd>택배</dd>
+                            <dt>배송 지역</dt>
+                            <dd>전국지역</dd>
+                            <dt>배송 비용</dt>
+                            <dd>3,000원</dd>
+                            <dt>배송 기간</dt>
+                            <dd>2일 ~ 3일</dd>
+                        </dl>
+                        <h2>세탕방법</h2>
+                        <ul>
+                            <li>
+                            드라이클리닝 세탁을 권장하고 있으며, 물세탁(울세제) 세탁 사용이 가능합니다.<br>
+                            단, 스웨터 레드 블랑킷, 스웨터 민트 블랑킷, 스웨터 레드 쿠션, 스웨터 민트 쿠션은 드라이클리닝을 필수로 해주시기 바랍니다.
+                            </li>
+                            <li>세탁은 중성세제를 이용해 단독 세탁 해주시기 바랍니다.</li>
+                            <li>건조시 제품을 털어서 털이 구겨지지 않도록 하고 그늘에 자연 건조해 주시기 바랍니다.</li>
+                            <li>제품에 부착되어 있는 품질 표시를 반드시 준수해 주시기 바랍니다.</li>
+                        </ul>
+                        <h2>배송/교환/반품안내</h2>
+                        <div class="table-wrap">
+                            <table class="table table-border">
+                                <colgroup>
+                                    <col style="width: 170px;">
+                                    <col style="width: 1000px;">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>배송방식</th>
+                                        <td>
+                                            <p>
+                                                <img src="/assets/images/new/kgb_logo.jpg" alt="kgb택배로고">
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>배송지역 및 비용</th>
+                                        <td>
+                                            본 제품은 전국 무료 배송입니다 (제주 및 도서 지역의 경우 항공 배송등으로 인한 추가 비용이 발생될 수 있습니다)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>배송정보</th>
+                                        <td>
+                                            배송기간은 평일을 기준으로 입금 확인 후 2~3일 정도 소요 됩니다. (공휴일은 배송기간 제외)<br>
+                                            단, 상품의 특성상 일시적 재고 부족이나 도서지역은 배송이 다소 늦어질 수 있습니다.<br>
+                                            제품은 고급 포장 된 후 안전하게 박스 포장되어 배송됩니다.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>교환 및 반품</th>
+                                        <td>
+                                            제품의 이상시에는 100% 교환이나 반품이 가능합니다.<br>
+                                            제품 이상이 아닌 단순 변심에 의한 교환 및 반품의 경우 수반되는 배송비는 고객님께서 부담하셔야 합니다.<br>
+                                            단, 상품불량, 파손, 주문내역과 다른 상품이 배송 되엇을 경우 무료입니다.<br>고객님에 의한 기타 사유로 상품 멸실 또는 훼손된 경우 반품되지 않습니다.<br>
+                                            고객님의 비정상적인 사용 또는 흠집발생 등 상품의 가치가 현저히 감소한 경우에는 반품불가 제품의 세탁 또는 사용 후에는 반품 및 교환이 되지 않습니다.<br>
+                                            교환이나 반품은 배송된 날로 20일 이내에 가능합니다.<br>
+                                            교환은 동일제품으로 하되 동일제품으로 교환이 불가한 경우 동일 유사제품으로 교환 될 수 있습니다.<br>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h2>A/S안내</h2>
+                        <p>
+                            1년간 무상으로 처리되며 품질 보증서에 보증 항목별 처리기준이 자세하게 기록되어 있습니다.<br>
+                            (단, 고객의 과실로 인한 경우 수리 가능 시 유상처리 됩니다)
+                        </p>
+                    </div>
+                    <div class="exchange">
+                        <ul class="menu-list">
+                            <li><a href="#">DETAIL INFO</a></li>
+                            <li><a href="#">RECOMMEND ITEMS</a></li>
+                            <li><a href="#">REVIEW</a></li>
+                            <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">GUIDE</a></li>
+                            <li class="active"><a href="#">EXCHANGE</a></li>
+                        </ul>
+                        <p>
+                            <img src="/assets/images/new/exchange_img.jpg" alt="교환 및 반품정보">
+                        </p>
                     </div>
                 </div>
             </article>
