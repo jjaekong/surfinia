@@ -7,6 +7,15 @@
     <main id="content" tabindex="-1" class="community qna">
         <div class="container">
             <section class="qna-info">
+                <nav class="sub-menu">
+                    <ul>
+                        <li class="notice"><a href="/community/notice.php">NOTICE</a></li>
+                        <li class="qna active"><a href="/community/qna.php">Q&amp;A</a></li>
+                        <li class="review"><a href="/community/review_list.php">REVIEW</a></li>
+                        <li class="event"><a href="/community/event.php">EVENT</a></li>
+                        <li class="sponsorship"><a href="#">SPONSORSHIP</a></li>
+                    </ul>
+                </nav>
                 <div class="section-header">
                     <h1>Q&amp;A</h1>
                 </div>
