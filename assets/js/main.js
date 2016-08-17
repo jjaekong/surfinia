@@ -45,7 +45,8 @@
 
     // 스폰서쉽 영역
     $('#sponsorship ul').bxSlider({
-        controls: false
+        controls: false,
+        auto: true
     });
 
 })(jQuery);
