@@ -1,0 +1,153 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.roboto, h1, h2, h3, h4, h5, h6, #primary-menu ul li a {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  min-width: 320px;
+  font-size: 10px;
+  color: #333;
+  font-weight: 300;
+  font-family: 'Nanum Gothic', serif; }
+
+address, p, dl {
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+ul, ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .container .row {
+    margin-left: -10px;
+    margin-right: -10px; }
+    .container .row .col-xs-1 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-2 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-3 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-4 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-5 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-6 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-7 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-8 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-9 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-10 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-11 {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .container .row .col-xs-12 {
+      padding-left: 10px;
+      padding-right: 10px; }
+
+#header {
+  position: relative;
+  height: 50px;
+  border-bottom: 1px solid #dfdfdf; }
+  #header .btn-menu {
+    position: absolute;
+    top: 5.66px;
+    left: 1px;
+    padding: 10px;
+    border-radius: 0;
+    background-color: #fff; }
+    #header .btn-menu .bar {
+      display: block;
+      width: 20px;
+      border-top: 2px solid #606060;
+      border-radius: 5px;
+      margin-top: 6px; }
+      #header .btn-menu .bar:first-child {
+        margin-top: 0; }
+  #header h1 {
+    padding-top: 16.6px;
+    display: block;
+    width: 106px;
+    margin: 0 auto; }
+    #header h1 img {
+      display: block;
+      width: 106px; }
+  #header .btn-cart {
+    position: absolute;
+    top: 5.66px;
+    right: 1px;
+    padding: 10px;
+    border-radius: 0;
+    background-color: #fff; }
+    #header .btn-cart .cart {
+      display: block;
+      width: 21px;
+      height: 17px;
+      background-image: url(/mobile/images/cart_btn.png);
+      background-repeat: no-repeat;
+      background-size: 21px auto;
+      background-position: 50% 50%; }
+
+#primary-menu {
+  overflow: scroll;
+  width: 100%;
+  height: 42px;
+  border-bottom: 1px solid #dadada;
+  -webkit-overflow-scrolling: touch; }
+  #primary-menu ul {
+    overflow: hidden;
+    width: 430px;
+    text-align: center; }
+    #primary-menu ul li {
+      float: left;
+      height: 42px;
+      line-height: 42px;
+      display: inline-block;
+      text-align: center; }
+      #primary-menu ul li a {
+        margin: 0 10px;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666; }
+
+#visual .bx-wrapper .bx-controls .bx-pager {
+  margin-top: 12.8px;
+  text-align: center; }
+  #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+    display: inline-block; }
+    #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+      display: block;
+      width: 9px;
+      height: 9px;
+      margin: 0 5px;
+      text-indent: -999px;
+      border: 1px solid #8a8a87;
+      border-radius: 50%;
+      background-color: #8a8a87; }
+    #visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .active {
+      border-color: #5e5f5c;
+      background-color: #5e5f5c; }
+
+/*# sourceMappingURL=default.css.map */

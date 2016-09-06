@@ -1,0 +1,198 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-width: 320px;
+    font-size: 10px;
+    color: #333;
+    font-weight: 300;
+    font-family: 'Nanum Gothic', serif;
+}
+address, p, dl {
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    //font-family: 'Times New Roman', serif;
+    @extend .roboto;
+}
+ul, ol {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+        @for $i from 1 through 12 {
+            .col-xs-#{$i} {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+#header {
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #dfdfdf;
+    .btn-menu {
+        position: absolute;
+        top: 5.66px;
+        left: 1px;
+        padding: 10px;
+        border-radius: 0;
+        background-color: #fff;
+        .bar {
+            display: block;
+            width: 20px;
+            border-top: 2px solid #606060;
+            border-radius: 5px;
+            margin-top: 6px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+    h1 {
+        padding-top: 16.6px;
+        display: block;
+        width: 106px;
+        margin: 0 auto;
+        img {
+            display: block;
+            width: 106px;
+        }
+    }
+    .btn-cart {
+        position: absolute;
+        top: 5.66px;
+        right: 1px;
+        padding: 10px;
+        border-radius: 0;
+        background-color: #fff;
+
+        .cart {
+            display: block;
+            width: 21px;
+            height: 17px;
+            background-image: url(/mobile/images/cart_btn.png);
+            background-repeat: no-repeat;
+            background-size: 21px auto;
+            background-position: 50% 50%;
+        }
+    }
+}
+#primary-menu {
+    overflow: scroll;
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #dadada;
+    -webkit-overflow-scrolling: touch;
+    ul {
+        overflow: hidden;
+        width: 430px;
+        text-align: center;
+        li {
+            float: left;
+            height: 42px;
+            line-height: 42px;
+            display: inline-block;
+            text-align: center;
+            a {
+                margin: 0 10px;
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                color: #666;
+                @extend .roboto;
+            }
+        }
+    }
+}
+#visual {
+    .bx-wrapper {
+        .bx-controls {
+            .bx-pager {
+                margin-top: 12.8px;
+                text-align: center;
+                .bx-pager-item {
+                    display: inline-block;
+                    .bx-pager-link {
+                        display: block;
+                        width: 9px;
+                        height: 9px;
+                        margin: 0 5px;
+                        text-indent: -999px;
+                        border: 1px solid #8a8a87;
+                        border-radius: 50%;
+                        background-color: #8a8a87;
+                    }
+                    .active {
+                        border-color: #5e5f5c;
+                        background-color: #5e5f5c;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
