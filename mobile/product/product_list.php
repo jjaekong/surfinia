@@ -6,7 +6,7 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
     <main class="content product">
         <header>
-            <p>
+            <p class="header-img">
                 <img src="/mobile/images/product/blanket_img.jpg" class="img-responsive" alt="blanket 이미지">
             </p>
         </header>

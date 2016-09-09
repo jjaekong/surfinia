@@ -45,7 +45,7 @@ input {
         }
     }
     .container {
-        padding-top: 20px;
+//        padding-top: 20px;
     }
 }
 .select-area {
@@ -96,6 +96,7 @@ input {
 .table-wrap {
     .table.table-bordered {
         border-top: 2px solid #444;
+        margin: 0;
         tbody {
             tr {
                 th {
@@ -129,46 +130,61 @@ input {
             text-align: left;
             background-color: #fff;
             border-bottom: 1px solid #f3f3f3;
-            a {
-                &:hover,
-                &:focus {
-                    text-decoration: none;
-                }
-                h4 {
-                    font-size: 11px;
-                    color: #333;
+            .panel-title {
+                a {
                     display: block;
-                    margin-bottom: 10px;
-                }
-                ul {
-                    li {
-                        display: inline-block;
-                        font-size: 10px;
-                        color: #666;
-                        &:after {
-                            content: "|";
-                            color: #acacac;
-                            padding: 0 11px;
-                        }
-                        &:last-child:after {
-                            content: "";
-                            padding: 0;
-                        }
-                        dl {
-                            display: inline;
-                            dt {
-                                display: inline-block;
-                                width: 25px;
-                                font-size: 10px;
-                                color: #666;
+                    background-image: url(/mobile/images/product/panel_up_btn.png);
+                    background-repeat: no-repeat;
+                    background-size: 11px auto;
+                    background-position: 98% 50%;
+                    &:hover,
+                    &:focus {
+                        text-decoration: none;
+                    }
+                    h4 {
+                        font-size: 11px;
+                        color: #333;
+                        display: block;
+                        padding-right: 30px;
+                        line-height: 16px;
+                        margin-bottom: 10px;
+                    }
+                    ul {
+                        li {
+                            display: inline-block;
+                            font-size: 10px;
+                            color: #666;
+                            &:after {
+                                content: "|";
+                                color: #acacac;
+                                padding: 0 11px;
                             }
-                            dd {
+                            &:last-child:after {
+                                content: "";
+                                padding: 0;
+                            }
+                            dl {
                                 display: inline;
-                                font-size: 10px;
-                                color: #666;
+                                dt {
+                                    display: inline-block;
+                                    width: 25px;
+                                    font-size: 10px;
+                                    color: #666;
+                                }
+                                dd {
+                                    display: inline;
+                                    font-size: 10px;
+                                    color: #666;
+                                }
                             }
                         }
                     }
+                }
+                a.collapsed {
+                    background-image: url(/mobile/images/product/panel_down_btn.png);
+                    background-repeat: no-repeat;
+                    background-size: 11px auto;
+                    background-position: 98% 50%;
                 }
             }
         }
@@ -185,6 +201,7 @@ input {
 }
 
 .btn-area {
+    text-align: center;
     p {
         .btn {
             display: inline-block;
@@ -197,7 +214,9 @@ input {
             &:last-child {
                 margin-right: 0;
             }
-            &:hover {
+            &:hover,
+            &:focus {
+                box-shadow: none;
                 opacity: .8;
             }
         }
@@ -217,8 +236,9 @@ input {
             padding: 6px 0;
         }
         .btn-lg {
-            width: 100%;
+            width: 300px;
             height: 36px;
+            margin: 0 auto;
             padding: 9px 0;
         }
         .btn-default {
@@ -291,6 +311,7 @@ input {
         text-align: center;
         border-top: 1px solid #dfdfdf;
         border-bottom: 1px solid #dfdfdf;
+        background-color: #fff;
     }
     .btn-minus {
         background-image: url(/mobile/images/product/minus_btn.png);
@@ -305,9 +326,85 @@ input {
         background-position: 50% 50%;
     }
 }
-
-
-
+/* menu-guide */
+.menu-guide {
+    position: relative;
+    padding-top: 25.3px;
+    margin-bottom: 21.66px;
+    border-bottom: 1px solid #dadada;
+    ul {
+        text-align: center;
+        li {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            &:after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: "|";
+                font-size: 10px;
+                color: #dadada;
+            }
+            a {
+                display: inline-block;
+                font-size: 10px;
+                color: #222;
+                padding-bottom: 10px;
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+        .menu-1 {
+            &:after {
+                right: 5px;
+            }
+        }
+        .menu-2 {
+            margin-left: 8px;
+            &:after {
+                right: -18px;
+            }
+        }
+        .menu-3 {
+            margin-left: 0px;
+            &:after {
+                content: "";
+            }
+        }
+        .menu-6 {
+            &:after {
+                content: "";
+            }
+        }
+        .active {
+            a {
+                border-bottom: 1px solid #222;
+            }
+        }
+    }
+    .bx-controls {
+        width: 300px;
+        position: absolute;
+        top: 25.3px;
+        .bx-controls-direction {
+            .bx-prev {
+                position: absolute;
+                top: 0px;
+                left: 0;
+                color: #b7b8b8;
+            }
+            .bx-next {
+                position: absolute;
+                top: 0px;
+                right: 0;
+                color: #b7b8b8;
+            }
+        }
+    }
+}
 
 
 
