@@ -1,7 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 <link href="/mobile/css/sub.css" rel="stylesheet">
 <link href="/mobile/css/membership.css" rel="stylesheet">
-<link href="/mobile/css/jquery-ui.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -127,6 +126,8 @@
                     <p>
                         <a href="#" class="btn btn-sm btn-green" role="button">전체상품주문</a>
                         <a href="#" class="btn btn-sm btn-default" role="button">선택상품주문</a>
+                    </p>
+                    <p>
                         <a href="#" class="btn btn-lg btn-default" role="button">쇼핑계속하기</a>
                     </p>
                 </div>

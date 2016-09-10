@@ -1,7 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 <link href="/mobile/css/sub.css" rel="stylesheet">
 <link href="/mobile/css/membership.css" rel="stylesheet">
-<link href="/mobile/css/jquery-ui.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>

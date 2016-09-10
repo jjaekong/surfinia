@@ -1,0 +1,140 @@
+/* 공통 */
+.login-common {
+    .page-header {
+        border-bottom: 0;
+    }
+}
+.login-nonmember {
+    margin-bottom: 20px;
+    ul {
+        overflow: hidden;
+        li {
+            float: left;
+            width: 50%;
+            text-align: center;
+            border: 1px solid #e4e4e4;
+            &:last-child {
+                margin-left: -1px;
+            }
+            a {
+                display: block;
+                height: 40px;
+                font-size: 11px;
+                color: #666;
+                font-weight: bold;
+                line-height: 40px;
+                opacity: .5;
+            }
+        }
+        .active {
+            border-color: #6c6c6c;
+            background-color: #6c6c6c;
+            a {
+                color: #fff;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+/* login */
+.login-form {
+    padding: 21.66px 11px;
+    background-color: #f9f9f9;
+    .form-control {
+        height: 28px;
+        margin-bottom: 10px;
+        padding-left: 12px;
+    }
+    .btn-area {
+        margin-top: 18px;
+        margin-bottom: 10px;
+        p {
+            .btn-lg {
+                width: 100%;
+            }
+        }
+    }
+    ul {
+        overflow: hidden;
+        padding: 11.6px 13px;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        li {
+            position: relative;
+            float: left;
+            width: 33.33%;
+            text-align: center;
+            &:after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: "|";
+                font-size: 10px;
+                color: #e6e6e6;
+
+            }
+            &:last-child:after {
+                content: "";
+            }
+            &:nth-of-type(1) {
+                text-align: left;
+                &:after {
+                    right: 10%;
+                }
+            }
+            &:nth-of-type(2) {
+                &:after {
+                    right: -15%;
+                }
+            }
+            &:nth-of-type(3) {
+                text-align: right;
+            }
+            a {
+                font-size: 11px;
+                color: #666;
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
