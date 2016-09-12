@@ -29,6 +29,43 @@
         color: #fff;
         opacity: 1; }
 
+.find-form {
+  margin-top: 20px;
+  padding: 19px 10px 24px;
+  background-color: #f9f9f9; }
+  .find-form .title {
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px; }
+  .find-form select {
+    display: inline-block;
+    width: 50%;
+    height: 28px;
+    border: 1px solid #e6e6e6;
+    margin-right: 11px; }
+  .find-form .form-control {
+    display: block;
+    height: 28px;
+    margin-top: 10px;
+    border-color: #e6e6e6; }
+  .find-form .radio {
+    margin-top: -2px;
+    display: inline-block;
+    vertical-align: middle; }
+  .find-form label {
+    font-size: 11px;
+    color: #666;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 0; }
+    .find-form label:nth-of-type(1) {
+      margin-right: 16.66px; }
+  .find-form .btn-area {
+    margin-top: 16.6px; }
+    .find-form .btn-area p .btn-lg {
+      width: 100%; }
+
 /* login */
 .login-form {
   padding: 21.66px 11px;
@@ -72,5 +109,179 @@
       .login-form ul li a {
         font-size: 11px;
         color: #666; }
+
+/* join */
+.join {
+  margin-top: 20px; }
+  .join .table-wrap .table {
+    border-left: 0;
+    border-right: 0; }
+    .join .table-wrap .table tbody tr th {
+      font-size: 11px;
+      color: #000;
+      font-weight: bold;
+      vertical-align: middle;
+      border-left: 0;
+      background-color: #f9f9f9; }
+      .join .table-wrap .table tbody tr th label {
+        font-size: 11px;
+        color: #000;
+        font-weight: bold;
+        margin: 0; }
+    .join .table-wrap .table tbody tr .required:after {
+      content: "*";
+      color: #dc1c1c; }
+    .join .table-wrap .table tbody tr td {
+      padding: 10px;
+      border-right: 0; }
+      .join .table-wrap .table tbody tr td .form-control {
+        height: 30px; }
+      .join .table-wrap .table tbody tr td label {
+        font-size: 11px;
+        color: #666;
+        font-weight: 300;
+        margin: 3px 20px 0 5px;
+        vertical-align: top; }
+    .join .table-wrap .table tbody tr .user-id .form-control {
+      display: inline-block;
+      width: 56%; }
+    .join .table-wrap .table tbody tr .user-id .btn-confirm {
+      margin-left: 10px;
+      display: inline-block; }
+      .join .table-wrap .table tbody tr .user-id .btn-confirm .btn {
+        width: 70px;
+        height: 30px;
+        font-size: 11px;
+        color: #666;
+        border: 1px solid #dbdbdb;
+        border-radius: 0; }
+    .join .table-wrap .table tbody tr .email .form-control {
+      display: inline-block;
+      width: 45%; }
+    .join .table-wrap .table tbody tr .birth .form-control {
+      display: inline-block;
+      width: 82%;
+      margin-right: 10px;
+      margin-bottom: 10px; }
+    .join .table-wrap .table tbody tr .birth .calendar .ui-datepicker-trigger {
+      width: 23.3px; }
+    .join .table-wrap .table tbody tr .addr .form-control {
+      display: block;
+      margin-top: 10px; }
+      .join .table-wrap .table tbody tr .addr .form-control:first-child {
+        display: inline-block;
+        width: 53%;
+        margin-top: 0;
+        margin-right: 10px; }
+    .join .table-wrap .table tbody tr .addr .addr-btn {
+      display: inline-block; }
+      .join .table-wrap .table tbody tr .addr .addr-btn .btn {
+        width: 74.3px;
+        height: 30px;
+        padding: 6px 0;
+        font-size: 11px;
+        color: #666;
+        border-radius: 0;
+        border: 1px solid #dbdbdb; }
+    .join .table-wrap .table tbody tr .call .form-control {
+      display: inline-block;
+      width: 29%; }
+    .join .table-wrap .table tbody tr .email-sms label {
+      margin-bottom: 10px; }
+    .join .table-wrap .table tbody tr .email-sms p {
+      font-size: 11px;
+      color: #666;
+      line-height: 16px; }
+  .join .terms {
+    margin-top: 33px; }
+    .join .terms h3 {
+      font-size: 12px;
+      color: #333;
+      margin-bottom: 10px; }
+      .join .terms h3:nth-of-type(2) {
+        margin-top: 55.33px; }
+    .join .terms > div {
+      height: 215px;
+      overflow-y: scroll;
+      font-size: 11px;
+      color: #666;
+      line-height: 24px;
+      padding: 21.66px 8.66px;
+      margin-bottom: 10px;
+      border-top: 2px solid #e4e4e4;
+      border-bottom: 2px solid #e4e4e4;
+      border-left: 1px solid #e4e4e4;
+      border-right: 1px solid #e4e4e4; }
+      .join .terms > div h4 {
+        font-size: 11px;
+        color: #666;
+        line-height: 24px; }
+    .join .terms p {
+      font-size: 11px;
+      color: #666;
+      display: inline-block;
+      margin-right: 27.66px; }
+    .join .terms .check {
+      display: inline-block;
+      margin-top: -2px;
+      vertical-align: middle; }
+    .join .terms .assent {
+      margin-bottom: 0;
+      font-weight: 300;
+      font-size: 11px;
+      color: #666; }
+  .join .btn-area {
+    margin-top: 46.66px; }
+
+/* id-success */
+.id-success {
+  padding-top: 31.66px; }
+  .id-success .title {
+    font-size: 12px;
+    color: #444;
+    text-align: center; }
+  .id-success .success-txt {
+    font-size: 11px;
+    color: #666;
+    opacity: .5;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 5px; }
+  .id-success .success {
+    font-size: 11px;
+    color: #666;
+    line-height: 16px;
+    margin-top: 21.33px;
+    padding: 26.66px 18.6px 26.66px 105px;
+    border: 1px solid #c1c1c1;
+    background-image: url(/mobile/images/member/success_img.gif);
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    background-position: 17px 50%; }
+    .id-success .success dl {
+      overflow: hidden; }
+      .id-success .success dl dt {
+        float: left;
+        clear: both;
+        width: 50px;
+        font-size: 11px;
+        color: #222;
+        line-height: 20px; }
+      .id-success .success dl dd {
+        float: left;
+        font-size: 11px;
+        color: #666;
+        line-height: 20px; }
+  .id-success .last-txt {
+    font-size: 11px;
+    color: #666;
+    line-height: 16px;
+    text-align: center;
+    margin: 19.33px 0 28.33px; }
+  .id-success .btn-area p .btn {
+    padding: 9px 0;
+    height: 38px !important; }
+  .id-success .btn-area p .btn-gray {
+    background-color: #b2b2b2; }
 
 /*# sourceMappingURL=member.css.map */

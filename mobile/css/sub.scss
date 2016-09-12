@@ -47,9 +47,6 @@ input {
             color: #333;
         }
     }
-    .container {
-//        padding-top: 20px;
-    }
 }
 .select-area {
     .form-control {
@@ -88,7 +85,8 @@ input {
                 width: 60px;
                 height: 40px;
                 color: #fff;
-                padding: 9px 0;
+                font-size: 11px;
+                padding: 12px 0;
                 font-weight: bold;
                 border-radius: 0;
                 background-color: #99cc99;
