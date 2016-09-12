@@ -36,7 +36,53 @@
         }
     }
 }
-
+.find-form {
+    margin-top: 20px;
+    padding: 19px 10px 24px;
+    background-color: #f9f9f9;
+    .title {
+        font-size: 11px;
+        color: #666;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    select {
+        display: inline-block;
+        width: 50%;
+        height: 28px;
+        border: 1px solid #e6e6e6;
+        margin-right: 11px;
+    }
+    .form-control {
+        display: block;
+        height: 28px;
+        margin-top: 10px;
+        border-color: #e6e6e6;
+    }
+    .radio {
+        margin-top: -2px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    label {
+        font-size: 11px;
+        color: #666;
+        display: inline-block;
+        font-weight: 300;
+        margin-bottom: 0;
+        &:nth-of-type(1) {
+            margin-right: 16.66px;
+        }
+    }
+    .btn-area {
+        margin-top: 16.6px;
+        p {
+            .btn-lg {
+                width: 100%;
+            }
+        }
+    }
+}
 
 /* login */
 .login-form {
@@ -102,9 +148,245 @@
 }
 
 
+/* join */
+.join {
+    margin-top: 20px;
+    .table-wrap {
+        .table {
+            border-left: 0;
+            border-right: 0;
+            tbody {
+                tr {
+                    th {
+                        font-size: 11px;
+                        color: #000;
+                        font-weight: bold;
+                        vertical-align: middle;
+                        border-left: 0;
+                        background-color: #f9f9f9;
+                        label {
+                            font-size: 11px;
+                            color: #000;
+                            font-weight: bold;
+                            margin: 0;
+                        }
+                    }
+                    .required {
+                        &:after {
+                            content: "*";
+                            color: #dc1c1c;
+                        }
+                    }
+                    td {
+                        padding: 10px;
+                        border-right: 0;
+                        .form-control {
+                            height: 30px;
+                        }
+                        label {
+                            font-size: 11px;
+                            color: #666;
+                            font-weight: 300;
+                            margin: 3px 20px 0 5px;
+                            vertical-align: top;
+                        }
+                    }
+                    .user-id {
+                        .form-control {
+                            display: inline-block;
+                            width: 56%;
+                        }
+                        .btn-confirm {
+                            margin-left: 10px;
+                            display: inline-block;
+                            .btn {
+                                width: 70px;
+                                height: 30px;
+                                font-size: 11px;
+                                color: #666;
+                                border: 1px solid #dbdbdb;
+                                border-radius: 0;
+                            }
+                        }
+                    }
+                    .email {
+                        .form-control {
+                            display: inline-block;
+                            width: 45%;
+                        }
+                    }
+                    .birth {
+                        .form-control {
+                            display: inline-block;
+                            width: 82%;
+                            margin-right: 10px;
+                            margin-bottom: 10px;
+                        }
+                        .calendar {
+                            .ui-datepicker-trigger {
+                                width: 23.3px;
+                            }
+                        }
+                    }
+                    .addr {
+                        .form-control {
+                            display: block;
+                            margin-top: 10px;
+                            &:first-child {
+                                display: inline-block;
+                                width: 53%;
+                                margin-top: 0;
+                                margin-right: 10px;
+                            }
+                        }
+                        .addr-btn {
+                            display: inline-block;
+                            .btn {
+                                width: 74.3px;
+                                height: 30px;
+                                padding: 6px 0;
+                                font-size: 11px;
+                                color: #666;
+                                border-radius: 0;
+                                border: 1px solid #dbdbdb;
+                            }
+                        }
+                    }
+                    .call {
+                        .form-control {
+                            display: inline-block;
+                            width: 29%;
+                        }
+                    }
+                    .email-sms {
+                        label {
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-size: 11px;
+                            color: #666;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .terms {
+        margin-top: 33px;
+        h3 {
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 10px;
+            &:nth-of-type(2) {
+                margin-top: 55.33px;
+            }
+        }
+        > div {
+            height: 215px;
+            overflow-y: scroll;
+            font-size: 11px;
+            color: #666;
+            line-height: 24px;
+            padding: 21.66px 8.66px;
+            margin-bottom: 10px;
+            border-top: 2px solid #e4e4e4;
+            border-bottom: 2px solid #e4e4e4;
+            border-left: 1px solid #e4e4e4;
+            border-right: 1px solid #e4e4e4;
+            h4 {
+                font-size: 11px;
+                color: #666;
+                line-height: 24px;
+            }
+        }
+        p {
+            font-size: 11px;
+            color: #666;
+            display: inline-block;
+            margin-right: 27.66px;
+        }
+        .check {
+            display: inline-block;
+            margin-top: -2px;
+            vertical-align: middle;
+        }
+        .assent {
+            margin-bottom: 0;
+            font-weight: 300;
+            font-size: 11px;
+            color: #666;
+        }
+    }
+    .btn-area {
+        margin-top: 46.66px;
+    }
+}
 
-
-
+/* id-success */
+.id-success {
+    padding-top: 31.66px;
+    .title {
+        font-size: 12px;
+        color: #444;
+        text-align: center;
+    }
+    .success-txt {
+        font-size: 11px;
+        color: #666;
+        opacity: .5;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .success {
+        font-size: 11px;
+        color: #666;
+        line-height: 16px;
+        margin-top: 21.33px;
+        padding: 26.66px 18.6px 26.66px 105px;
+        border: 1px solid #c1c1c1;
+        background-image: url(/mobile/images/member/success_img.gif);
+        background-repeat: no-repeat;
+        background-size: 70px auto;
+        background-position: 17px 50%;
+        dl {
+            overflow: hidden;
+            dt {
+                float: left;
+                clear: both;
+                width: 50px;
+                font-size: 11px;
+                color: #222;
+                line-height: 20px;
+            }
+            dd {
+                float: left;
+                font-size: 11px;
+                color: #666;
+                line-height: 20px;
+            }
+        }
+    }
+    .last-txt {
+        font-size: 11px;
+        color: #666;
+        line-height: 16px;
+        text-align: center;
+        margin: 19.33px 0 28.33px;
+    }
+    .btn-area {
+        p {
+            .btn {
+                padding: 9px 0;
+                height: 38px !important;
+            }
+            .btn-gray {
+                background-color: #b2b2b2;
+            }
+        }
+    }
+}
 
 
 
