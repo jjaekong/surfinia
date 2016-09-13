@@ -136,81 +136,182 @@ ul, ol {
     background-color: #fff;
     transition: all .3s;
     z-index: 910; }
+    #nav .nav-container .btn-nav-close {
+      position: absolute;
+      top: 0;
+      right: -50px;
+      padding: 13px;
+      min-width: 50px;
+      width: 50px;
+      height: 50px;
+      background-color: transparent; }
+      #nav .nav-container .btn-nav-close img {
+        width: 23px;
+        height: 23.66px; }
     #nav .nav-container .nav-content {
       overflow: scroll;
       height: 100%; }
-      #nav .nav-container .nav-content .nav-head {
-        padding-top: 8.6px;
-        background-color: #fff; }
-        #nav .nav-container .nav-content .nav-head h1 {
-          width: 106px;
-          margin: 0 auto; }
-          #nav .nav-container .nav-content .nav-head h1 img {
-            display: block;
-            width: 106px; }
-        #nav .nav-container .nav-content .nav-head .quick-menu {
-          width: 100%;
-          height: 27.3px;
-          background-color: #84ccc9;
-          margin-top: 8.6px; }
-          #nav .nav-container .nav-content .nav-head .quick-menu ul {
-            overflow: hidden; }
-            #nav .nav-container .nav-content .nav-head .quick-menu ul li {
-              float: left;
-              width: 25%;
-              height: 27.3px;
-              text-align: center;
-              line-height: 27.3px;
-              border-left: 1px solid #77b7b5;
-              border-right: 1px solid #c2e6e4; }
-              #nav .nav-container .nav-content .nav-head .quick-menu ul li a {
-                display: block;
-                color: #fff;
-                font-size: 11px;
-                letter-spacing: -.5px; }
-                #nav .nav-container .nav-content .nav-head .quick-menu ul li a:hover, #nav .nav-container .nav-content .nav-head .quick-menu ul li a:focus {
-                  text-decoration: none; }
-      #nav .nav-container .nav-content .gnb > li {
-        overflow: hidden;
-        border-bottom: 1px solid #dadada; }
-        #nav .nav-container .nav-content .gnb > li > a {
+      #nav .nav-container .nav-content .nav-head h1 {
+        width: 100%;
+        text-align: left;
+        background-color: #1f1f1f;
+        padding: 14.66px 0 14.66px 10px; }
+        #nav .nav-container .nav-content .nav-head h1 img {
           display: block;
-          width: 100%;
-          height: 36px;
-          font-size: 13.3px;
-          color: #333;
-          font-weight: 600;
-          line-height: 36px;
-          padding-left: 20px; }
-          #nav .nav-container .nav-content .gnb > li > a:hover, #nav .nav-container .nav-content .gnb > li > a:focus {
-            text-decoration: none; }
-          #nav .nav-container .nav-content .gnb > li > a .glyphicon {
-            float: right;
-            color: #999;
-            line-height: 36px;
-            padding-right: 20px; }
-        #nav .nav-container .nav-content .gnb > li > ul {
-          display: none;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          background-color: #f9f9f9; }
-          #nav .nav-container .nav-content .gnb > li > ul > li > a {
+          width: 106.33px; }
+      #nav .nav-container .nav-content .nav-head .quick-menu {
+        width: 100%;
+        padding: 20px 10px 16.6px; }
+        #nav .nav-container .nav-content .nav-head .quick-menu .search-form {
+          position: relative; }
+          #nav .nav-container .nav-content .nav-head .quick-menu .search-form .form-control {
+            height: 30px;
+            font-size: 12px;
+            color: #666;
+            padding-right: 30px;
+            box-shadow: none;
+            border-radius: 0;
+            border: 1px solid #c3c3c3; }
+            #nav .nav-container .nav-content .nav-head .quick-menu .search-form .form-control:hover, #nav .nav-container .nav-content .nav-head .quick-menu .search-form .form-control:focus {
+              border-color: #c3c3c3; }
+          #nav .nav-container .nav-content .nav-head .quick-menu .search-form .btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 4.5px;
+            margin: 1px;
+            border-radius: 0;
+            background-color: #fff; }
+            #nav .nav-container .nav-content .nav-head .quick-menu .search-form .btn span {
+              display: block;
+              width: 17px;
+              height: 17px;
+              background-image: url(/mobile/images/main/search_btn.gif);
+              background-repeat: no-repeat;
+              background-size: 17px 17px;
+              background-position: 50% 50%; }
+        #nav .nav-container .nav-content .nav-head .quick-menu .btn-area {
+          margin-top: 10px;
+          margin-bottom: 16.66px; }
+          #nav .nav-container .nav-content .nav-head .quick-menu .btn-area p .btn {
+            display: inline-block;
+            width: 117.66px;
+            height: 30px;
+            font-size: 11.33px;
+            text-align: center;
+            padding: 0;
+            line-height: 30px;
+            border-radius: 0; }
+          #nav .nav-container .nav-content .nav-head .quick-menu .btn-area p .btn-gray {
+            color: #4b4b4b;
+            margin-right: 11px;
+            background-color: #dddddd; }
+          #nav .nav-container .nav-content .nav-head .quick-menu .btn-area p .btn-charcoal {
+            color: #fff;
+            background-color: #575757; }
+        #nav .nav-container .nav-content .nav-head .quick-menu ul {
+          overflow: hidden; }
+          #nav .nav-container .nav-content .nav-head .quick-menu ul li {
+            position: relative;
+            float: left;
+            width: 50%;
+            text-align: center;
+            line-height: 27.3px;
+            padding-top: 17.33px;
+            background-image: url(/mobile/images/main/quick_btn01.gif);
+            background-repeat: no-repeat;
+            background-size: 18px 17.33px;
+            background-position: 50% 2px; }
+            #nav .nav-container .nav-content .nav-head .quick-menu ul li:after {
+              position: absolute;
+              bottom: 10px;
+              right: -1.5px;
+              content: "|";
+              color: #e3e3e3;
+              font-size: 20px;
+              font-weight: 300; }
+            #nav .nav-container .nav-content .nav-head .quick-menu ul li:last-child {
+              background-image: url(/mobile/images/main/quick_btn02.gif);
+              background-repeat: no-repeat;
+              background-size: 20.33px 16px;
+              background-position: 50% 0; }
+            #nav .nav-container .nav-content .nav-head .quick-menu ul li:last-child:after {
+              content: ""; }
+            #nav .nav-container .nav-content .nav-head .quick-menu ul li a {
+              font-size: 11px;
+              color: #666; }
+              #nav .nav-container .nav-content .nav-head .quick-menu ul li a:hover, #nav .nav-container .nav-content .nav-head .quick-menu ul li a:focus {
+                text-decoration: none; }
+      #nav .nav-container .nav-content .gnb {
+        border-top: 1px solid #e3e3e3; }
+        #nav .nav-container .nav-content .gnb > li {
+          overflow: hidden;
+          border-bottom: 1px solid #e3e3e3; }
+          #nav .nav-container .nav-content .gnb > li > a {
             display: block;
             width: 100%;
-            font-size: 12.6px;
+            height: 40px;
+            font-size: 12px;
             color: #333;
-            font-weight: 400;
-            line-height: 25px;
-            padding-left: 38.66px; }
-        #nav .nav-container .nav-content .gnb > li.active {
-          border-bottom: 0; }
-          #nav .nav-container .nav-content .gnb > li.active > ul {
-            display: block; }
-            #nav .nav-container .nav-content .gnb > li.active > ul > li a:hover {
+            font-weight: bold;
+            line-height: 40px;
+            padding-left: 10.33px; }
+            #nav .nav-container .nav-content .gnb > li > a span {
+              float: right;
+              display: inline-block;
+              width: 12px;
+              height: 12px;
+              margin-top: 14px;
+              margin-right: 13px;
+              background-image: url(/mobile/images/main/quick_plus_btn.gif);
+              background-repeat: no-repeat;
+              background-size: 12px 12px;
+              background-position: 0 0; }
+            #nav .nav-container .nav-content .gnb > li > a:hover, #nav .nav-container .nav-content .gnb > li > a:focus {
               text-decoration: none; }
-            #nav .nav-container .nav-content .gnb > li.active > ul > li a:focus {
-              text-decoration: none;
-              color: #9f080d; }
+            #nav .nav-container .nav-content .gnb > li > a .glyphicon {
+              float: right;
+              color: #999;
+              line-height: 36px;
+              padding-right: 20px; }
+          #nav .nav-container .nav-content .gnb > li > ul {
+            display: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #f9f9f9; }
+            #nav .nav-container .nav-content .gnb > li > ul > li {
+              overflow: hidden; }
+              #nav .nav-container .nav-content .gnb > li > ul > li > a {
+                display: block;
+                width: 100%;
+                font-size: 11px;
+                color: #777;
+                font-weight: bold;
+                line-height: 25px;
+                padding-left: 10px; }
+          #nav .nav-container .nav-content .gnb > li.active {
+            background-color: #575757;
+            border-bottom: 0; }
+            #nav .nav-container .nav-content .gnb > li.active > a {
+              color: #fff; }
+              #nav .nav-container .nav-content .gnb > li.active > a span {
+                float: right;
+                display: inline-block;
+                width: 12px;
+                height: 1px;
+                margin-top: 18.66px;
+                margin-right: 13px;
+                background-image: url(/mobile/images/main/quick_minus_btn.gif);
+                background-repeat: no-repeat;
+                background-size: 12px 1px;
+                background-position: 0 0; }
+            #nav .nav-container .nav-content .gnb > li.active > ul {
+              display: block; }
+              #nav .nav-container .nav-content .gnb > li.active > ul > li a:hover {
+                text-decoration: none; }
+              #nav .nav-container .nav-content .gnb > li.active > ul > li a:focus {
+                text-decoration: none;
+                color: #9f080d; }
   #nav.collapsed {
     left: -100%; }
     #nav.collapsed .nav-container {

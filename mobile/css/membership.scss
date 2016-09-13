@@ -1626,93 +1626,87 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* withdrawal */
+.withdrawal {
+    .login-form {
+        padding: 23.33px 10px 32.22px;
+        background-color: #f9f9f9;
+        .tlogin-txt {
+            font-size: 11px;
+            color: #666;
+            line-height: 16px;
+            text-align: center;
+            margin-bottom: 19px;
+        }
+        .form-control {
+            height: 28px;
+            border-color: #e6e6e6;
+            margin-bottom: 10px;
+            &:nth-of-type(2) {
+                margin-bottom: 15.33px;
+            }
+        }
+        .btn-area {
+            p {
+                .btn-lg {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .attention {
+        margin-top: 47.66px;
+        padding: 13.66px 15px;
+        border: 1px solid #dbdbdb;
+        h3 {
+            font-size: 11px;
+            color: #666;
+            padding-left: 10px;
+            margin: 18px 0 10px;
+            background-image: url(/mobile/images/membership/my_info_bg.gif);
+            background-repeat: no-repeat;
+            background-size: 4px auto;
+            background-position: 0 1px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        p {
+            font-size: 11px;
+            color: #666;
+            line-height: 16px;
+        }
+        ul {
+            li {
+                line-height: 16px;
+                display: inline-block;
+                margin-bottom: 10px;
+                &:first-child {
+                    margin-top: 10px;
+                }
+                &:before {
+                    content: "-";
+                }
+                dl {
+                    display: inline;
+                    dt {
+                        font-size: 11px;
+                        line-height: 16px;
+                        color: #666;
+                        font-weight: 300;
+                        display: inline;
+                        &:after {
+                            content: ":";
+                        }
+                    }
+                    dd {
+                        font-size: 11px;
+                        line-height: 16px;
+                        color: #666;
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+}

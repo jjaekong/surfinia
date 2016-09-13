@@ -1,15 +1,15 @@
 <footer id="footer">
     <div class="quick-menu">
         <ul>
-            <li><a href="#">전화하기</a></li>
+            <li><a href="tel:024540070">전화하기</a></li>
             <li><a href="#">고객센터</a></li>
             <li><a href="#">PC버전</a></li>
         </ul>
     </div>
     <div class="policy">
         <ul>
-            <li><a href="#">개인정보취급방침</a></li>
-            <li><a href="#">이용약관</a></li>
+            <li><a href="/mobile/introduce/privacy_statsment.php">개인정보취급방침</a></li>
+            <li><a href="/mobile/introduce/sevice_terms.php">이용약관</a></li>
             <li><a href="#">About SURFINIA</a></li>
         </ul>
     </div>

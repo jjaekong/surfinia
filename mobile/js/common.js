@@ -8,10 +8,6 @@
         auto: false,
         controls: false
     });
-    $('.review ul').bxSlider({
-        auto: false,
-        controls: false
-    });
 })(jQuery);
 
 (function($) {
