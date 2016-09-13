@@ -1173,4 +1173,65 @@
       border-right: 0;
       border-color: #f3f3f3; }
 
+/* withdrawal */
+.withdrawal .login-form {
+  padding: 23.33px 10px 32.22px;
+  background-color: #f9f9f9; }
+  .withdrawal .login-form .tlogin-txt {
+    font-size: 11px;
+    color: #666;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 19px; }
+  .withdrawal .login-form .form-control {
+    height: 28px;
+    border-color: #e6e6e6;
+    margin-bottom: 10px; }
+    .withdrawal .login-form .form-control:nth-of-type(2) {
+      margin-bottom: 15.33px; }
+  .withdrawal .login-form .btn-area p .btn-lg {
+    width: 100%; }
+.withdrawal .attention {
+  margin-top: 47.66px;
+  padding: 13.66px 15px;
+  border: 1px solid #dbdbdb; }
+  .withdrawal .attention h3 {
+    font-size: 11px;
+    color: #666;
+    padding-left: 10px;
+    margin: 18px 0 10px;
+    background-image: url(/mobile/images/membership/my_info_bg.gif);
+    background-repeat: no-repeat;
+    background-size: 4px auto;
+    background-position: 0 1px; }
+    .withdrawal .attention h3:first-child {
+      margin-top: 0; }
+  .withdrawal .attention p {
+    font-size: 11px;
+    color: #666;
+    line-height: 16px; }
+  .withdrawal .attention ul li {
+    line-height: 16px;
+    display: inline-block;
+    margin-bottom: 10px; }
+    .withdrawal .attention ul li:first-child {
+      margin-top: 10px; }
+    .withdrawal .attention ul li:before {
+      content: "-"; }
+    .withdrawal .attention ul li dl {
+      display: inline; }
+      .withdrawal .attention ul li dl dt {
+        font-size: 11px;
+        line-height: 16px;
+        color: #666;
+        font-weight: 300;
+        display: inline; }
+        .withdrawal .attention ul li dl dt:after {
+          content: ":"; }
+      .withdrawal .attention ul li dl dd {
+        font-size: 11px;
+        line-height: 16px;
+        color: #666;
+        display: inline; }
+
 /*# sourceMappingURL=membership.css.map */

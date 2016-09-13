@@ -1,0 +1,79 @@
+.roboto, .introduce .intro .surfinia-history h3, .introduce .intro .surfinia-history .history dt {
+  font-family: 'Roboto', sans-serif; }
+
+/* introduce */
+.introduce .page-header {
+  margin-bottom: 17px; }
+.introduce .intro .article-content {
+  padding-top: 27px; }
+  .introduce .intro .article-content p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 27px; }
+    .introduce .intro .article-content p:last-child {
+      margin-bottom: 0; }
+.introduce .intro .surfinia-history {
+  width: 100%;
+  margin-top: 50px;
+  padding: 22px 16.66px;
+  background-color: #f5f8f8; }
+  .introduce .intro .surfinia-history h3 {
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1.5px;
+    text-align: center; }
+  .introduce .intro .surfinia-history hr {
+    display: block;
+    width: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-top: 1px solid #444; }
+  .introduce .intro .surfinia-history .history {
+    overflow: hidden; }
+    .introduce .intro .surfinia-history .history dt {
+      float: left;
+      clear: both;
+      width: 53.33px;
+      font-size: 12px;
+      color: #333;
+      line-height: 21.66px; }
+    .introduce .intro .surfinia-history .history dd {
+      float: left;
+      width: 79%;
+      font-size: 12px;
+      color: #333;
+      line-height: 21.66px; }
+
+/* sevice-terms */
+.terms-common {
+  margin-top: 28.33px; }
+  .terms-common .terms {
+    overflow-y: scroll;
+    width: 100%;
+    height: 370px;
+    font-size: 11px;
+    color: #999;
+    line-height: 18px;
+    padding: 12px 9px;
+    border: 1px solid #dbdbdb; }
+
+/* guide */
+.guide {
+  margin-top: 28.33px; }
+  .guide .form-control {
+    height: 28px;
+    font-size: 11px;
+    color: #666;
+    border-color: #e6e6e6; }
+  .guide h3 {
+    font-size: 12px;
+    color: #222;
+    margin: 25px 0 15px; }
+  .guide p {
+    font-size: 11px;
+    color: #666;
+    line-height: 18px; }
+
+/*# sourceMappingURL=introduce.css.map */

@@ -1,3 +1,6 @@
+.roboto, .search-success .article-content ul li a .details .amount, .search-success .article-content ul li a .details .best-new .label {
+  font-family: 'Roboto', sans-serif; }
+
 /* sub common */
 select {
   width: 100%;
@@ -311,5 +314,89 @@ input {
       top: 0px;
       right: 0;
       color: #b7b8b8; }
+
+/* search-success */
+.search-success {
+  margin-top: 18px; }
+  .search-success .article-header dl {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .search-success .article-header dl dt {
+      float: left;
+      clear: both;
+      width: 80px;
+      height: 28px;
+      font-size: 11px;
+      color: #222;
+      line-height: 28px;
+      margin-bottom: 9px; }
+    .search-success .article-header dl dd {
+      float: left;
+      width: 73%;
+      margin-bottom: 9px; }
+      .search-success .article-header dl dd .form-control {
+        height: 28px;
+        font-size: 11px;
+        color: #666;
+        border-color: #e6e6e6; }
+    .search-success .article-header dl .condition select {
+      display: inline-block;
+      width: 100px;
+      margin-right: 10px; }
+    .search-success .article-header dl .condition input {
+      display: inline-block;
+      width: 48%; }
+  .search-success .article-header .btn-area {
+    margin-bottom: 26.66px; }
+  .search-success .article-content {
+    padding-top: 29.66px;
+    border-top: 10px solid #ededed; }
+    .search-success .article-content .success {
+      font-size: 11px;
+      color: #666;
+      margin-bottom: 11px; }
+    .search-success .article-content .form-control {
+      height: 28px;
+      color: #666;
+      font-size: 11px;
+      opacity: .5;
+      margin-bottom: 11px;
+      border-color: #e6e6e6; }
+    .search-success .article-content ul li {
+      margin-bottom: 29.6px; }
+      .search-success .article-content ul li a .details {
+        position: relative;
+        padding-top: 11.3px;
+        padding-bottom: 22px; }
+        .search-success .article-content ul li a .details h3 {
+          font-size: 11px;
+          font-weight: bold;
+          color: #444;
+          margin-bottom: 3px; }
+        .search-success .article-content ul li a .details .amount {
+          font-size: 10px;
+          color: #666;
+          letter-spacing: .5px; }
+        .search-success .article-content ul li a .details .best-new {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+          .search-success .article-content ul li a .details .best-new .label {
+            display: inline-block;
+            font-size: 10px;
+            width: 33px;
+            height: 13px;
+            border-radius: 0px;
+            padding: 0;
+            text-align: center;
+            line-height: 12px;
+            vertical-align: bottom; }
+          .search-success .article-content ul li a .details .best-new .label-best {
+            padding-top: 1px;
+            margin-right: 1px;
+            background-color: #99cccc; }
+          .search-success .article-content ul li a .details .best-new .label-new {
+            color: #494949;
+            border: 1px solid #494949; }
 
 /*# sourceMappingURL=sub.css.map */
